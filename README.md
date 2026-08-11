@@ -5,6 +5,9 @@ My personal collection of physics notes, published as a digital garden with
 
 Website: https://edoardo1000.github.io/physics-notes/
 
+### Warning
+This collection is a work in progress: some notes may be incomplete or contain errors.
+
 ## Contents
 
 The site currently includes notes on topics such as:
@@ -12,7 +15,6 @@ The site currently includes notes on topics such as:
 - the Standard Model;
 - electroweak theory;
 - quantum field theory;
-- conformal field theory.
 
 The collection is a work in progress. Notes may be incomplete and may contain
 errors. Corrections and suggestions are welcome.
