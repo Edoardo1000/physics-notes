@@ -1,3 +1,195 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+/* Primary-inspired emphasis */
+article strong {
+  color: #b84f4f;
+  font-weight: 700;
+}
+
+article em {
+  color: #517f9b;
+}
+
+/* Slightly warmer, softer links */
+article a {
+  text-decoration-color: rgba(210, 139, 25, 0.4);
+  text-underline-offset: 0.15em;
+}
+
+article a:hover {
+  text-decoration-color: currentColor;
+}
+
+/* Friendly headings */
+article h1,
+article h2,
+article h3,
+article h4 {
+  letter-spacing: -0.015em;
+}
+
+/* Softer blocks */
+blockquote,
+.callout,
+pre {
+  border-radius: 0.65rem;
+}
+
+
+/* Display equations */
+article .math-display {
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* Give inline equations a little breathing room */
+article .math-inline {
+  margin-inline: 0.05em;
+}
+
+/* Prevent large equations from breaking the page */
+article mjx-container[display="true"],
+article .katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-block: 0.25rem;
+}
+
+
+
+
+/* Comfortable prose spacing inside callouts */
+.callout-content {
+  line-height: 1.75;
+}
+
+/* Remove margins that artificially enlarge collapsed callouts */
+.callout.is-collapsed .callout-content,
+.callout[aria-expanded="false"] .callout-content {
+  margin: 0;
+  padding: 0;
+}
+
+/* Normal paragraph spacing inside callouts */
+.callout-content > p {
+  margin-block: 0.7rem;
+}
+
+.callout-content > p:first-child {
+  margin-top: 0;
+}
+
+.callout-content > p:last-child {
+  margin-bottom: 0;
+}
+
+/* Compact and centred display equations inside callouts */
+.callout-content mjx-container[display="true"] {
+  display: block;
+  width: 100%;
+  margin: 0.8rem auto !important;
+  padding: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  text-align: center;
+}
+
+/* MathJax SVG sometimes carries its own alignment */
+.callout-content mjx-container[display="true"] > svg {
+  display: block;
+  margin-inline: auto;
+}
+
+/* Do not reserve space for hidden callout content */
+.callout.is-collapsed .callout-content {
+  display: none;
+}
+
+
+
+/* Comfortable line spacing in note content */
+article p,
+article li {
+  line-height: 1.65;
+}
+
+/* Optional: slightly more separation between paragraphs */
+article p {
+  margin-block: 0.8em;
+}
+
+/* Use Nunito for every heading, including Explorer and folder pages */
+html[saved-theme] body :is(h1, h2, h3, h4, h5, h6),
+html[saved-theme] body :is(.article-title, .page-title),
+html[saved-theme] body .page-title a {
+  font-family: "Nunito", sans-serif !important;
+}
+
+/* Titles generated outside the article element */
+html[saved-theme] body :is(.article-title, .page-title) {
+  font-family: var(--headerFont) !important;
+}
+
+/* Restore the configured Quartz fonts after the Nyan theme loads */
+html[saved-theme="light"],
+html[saved-theme="dark"] {
+  --headerFont: "Nunito", sans-serif !important;
+  --bodyFont: "Source Sans 3", sans-serif !important;
+  --codeFont: "IBM Plex Mono", monospace !important;
+}
+
+/* Use the fonts explicitly */
+html[saved-theme] body article :is(h1, h2, h3, h4, h5, h6),
+html[saved-theme] body :is(.article-title, .page-title),
+html[saved-theme] body .page-title a {
+  font-family: "Nunito", sans-serif !important;
+}
+
+/* Explorer folder and note names */
+html[saved-theme] body .explorer {
+  font-family: "Source Sans 3", sans-serif !important;
+}
+
+html[saved-theme] body .explorer h2 {
+  font-family: "Nunito", sans-serif !important;
+}
+
+/* Vertically centre the complete callout title row */
+.callout .callout-title {
+  display: flex;
+  align-items: center !important;
+}
+
+/* Vertically centre both the type icon and folding arrow */
+.callout .callout-icon,
+.callout .callout-fold,
+.callout .fold-callout-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center !important;
+  line-height: 1;
+  margin-block: 0;
+  padding-block: 0;
+}
+
+/* SVGs have baseline alignment by default; remove it */
+.callout .callout-icon svg,
+.callout .callout-fold svg,
+.callout .fold-callout-icon svg {
+  display: block;
+  vertical-align: middle;
+  transform: none !important;
+}
+
+/* Keep title text from introducing asymmetric line-box spacing */
+.callout .callout-title-inner {
+  line-height: 1.35;
+}
+
+/* Separate breadcrumbs from the page title */
+.breadcrumb-container,
+.breadcrumbs {
+  margin-bottom: 1.1rem !important;
+}
