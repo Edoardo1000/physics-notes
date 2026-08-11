@@ -1,4 +1,4 @@
-name: Deploy v5 Preview
+name: Deploy Quartz to GitHub Pages
 
 on:
   push:
@@ -8,19 +8,24 @@ on:
 
 permissions:
   contents: read
-  deployments: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  deploy-v5:
-    if: ${{ github.repository == 'jackyzha0/quartz' }}
+  build:
     runs-on: ubuntu-latest
-    name: Deploy v5 to Cloudflare Pages
+
     steps:
-      - uses: actions/checkout@v6
+      - name: Check out repository
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
-      - name: Setup Node
+      - name: Set up Node
         uses: actions/setup-node@v6
         with:
           node-version: 24
@@ -41,7 +46,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-plugins-
 
-      - run: npm install
+      - name: Install dependencies
+        run: npm ci
 
       - name: Install Quartz plugins
         run: npx quartz plugin install
@@ -50,15 +56,22 @@ jobs:
         run: npm run check
 
       - name: Build Quartz
-        run: npx quartz build -d docs -v
+        run: npx quartz build
 
-      - name: Deploy to Cloudflare Pages
-        uses: AdrianGonz97/refined-cf-pages-action@v1
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
-          projectName: quartz
-          deploymentName: v5 Branch Preview
-          branch: v5
-          directory: public
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
