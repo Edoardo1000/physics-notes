@@ -1,17 +1,30 @@
-# Quartz v5
+# Physics Notes
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+My personal collection of physics notes, published as a digital garden with
+[Quartz](https://quartz.jzhao.xyz/).
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+Website: https://edoardo1000.github.io/physics-notes/
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+### Warning
+This collection is a work in progress: some notes may be incomplete or contain errors.
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+## Contents
 
-## Sponsors
+The site currently includes notes on topics such as:
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+- the Standard Model;
+- electroweak theory;
+- quantum field theory;
+
+The collection is a work in progress. Notes may be incomplete and may contain
+errors. Corrections and suggestions are welcome.
+
+## About
+
+These notes were written while studying physics and are intended primarily as
+study material. They should not be treated as an authoritative reference.
+
+## Built with
+
+The website is generated using Quartz 5 and is designed to work with
+Obsidian-style Markdown.
