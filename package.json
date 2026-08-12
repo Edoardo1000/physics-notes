@@ -93,6 +93,7 @@
     "@quartz-themes/nightfox": "^1.0.1",
     "@quartz-themes/nyan": "^1.0.1",
     "@quartz-themes/primary": "^1.0.1",
+    "@quartz-themes/ravenloft": "^1.0.1",
     "ansi-truncate": "^1.4.0",
     "async-mutex": "^0.5.0",
     "chokidar": "^5.0.0",

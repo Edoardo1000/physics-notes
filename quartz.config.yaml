@@ -114,7 +114,7 @@ plugins:
   - source: "@quartz-themes/core"
     enabled: true
     options:
-      theme: nyan
+      theme: ravenloft
       mode: both
   - source: github:quartz-community/remove-draft
     enabled: true
