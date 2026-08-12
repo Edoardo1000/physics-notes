@@ -1,4 +1,10 @@
-If we try to diagonalize the [[Flavor Symmetry|quark Yukawa sector]], we incur into a problem: $Y_{u}$ and $Y_{d}$ **transform under the same matrices**. Because of this, they **cannot be diagonalized at the same time**.
+---
+tags:
+  - topic/standard-model
+---
+If we consider all the fermion flavors, the [[Electroweak Mass Generation#Fermion Mass Generation|Yukawa couplings]] are in fact *matrices*, which do not need to be diagonal, and different flavors are mixed.
+
+ If we try to diagonalize the matrices $Y_{e},Y_{u},Y_{d}$, we discover that $Y_{u},Y_{d}$ cannot be diagonalized at the same time, meaning that some mixing must occur.
 
 However, since it's better to work with a diagonal mass matrix, we can move the mixing terms in the *charged current Lagrangian* and get 
 $$

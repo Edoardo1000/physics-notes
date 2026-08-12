@@ -76,7 +76,7 @@ $$
 >which proves our statement.
 
 ### Parameters
-- **Zero order:** originally, we had $\Pi_{WW}(0), \Pi_{33}(0),\Pi_{3B}(0),\Pi_{BB}(0)$. After the constraints, only two of them are independent. Their mismatch indicates [[Custodial Symmetry]] breaking, and we define
+- **Zero order:** originally, we had $\Pi_{WW}(0), \Pi_{33}(0),\Pi_{3B}(0),\Pi_{BB}(0)$. After the constraints, only two of them are independent. Their mismatch indicates [[Sigma Model for Higgs]] breaking, and we define
   $$
   	T \equiv \frac{\Pi_{33}-\Pi_{WW}}{m_{W}^{2}}.
   $$

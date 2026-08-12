@@ -3,7 +3,7 @@ $$
 	e + \bar{e} \to \gamma^{*} \to q + \bar{q} + g,
 $$
 with a *soft final photon, in the limit of massless fermions*.
-Recalling [[Electron-Positron Annihilation and Z-Pole Observables|electron-positron annihilation]],  the cross section of the process without the gluon is given by 
+Recalling [[Electron-Positron Annihilation|electron-positron annihilation]],  the cross section of the process without the gluon is given by 
 $$
 	\sigma_{0} = \frac{4\pi\alpha^{2}}{3s} \sum_{q}Q_{q}^{2}N_{c},
 $$

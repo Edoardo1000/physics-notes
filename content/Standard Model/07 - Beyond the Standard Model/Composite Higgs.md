@@ -1,4 +1,4 @@
- We see that the [[Custodial Symmetry#Effective theory|effective Lagrangian]] is a nonlinear sigma-model, identical to the **chiral Lagrangian**.
+ We see that the [[Sigma Model for Higgs#Effective theory|effective Lagrangian]] is a nonlinear sigma-model, identical to the **chiral Lagrangian**.
 The effective theory breaks down when loop contributions become comparable to tree-level amplitudes, which happens at a scale 
 $$
 	E \sim \frac{4\pi v}{\sqrt{ N_{\pi} }},

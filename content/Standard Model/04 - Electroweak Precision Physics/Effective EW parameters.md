@@ -14,7 +14,6 @@ $$
 \mathcal{V}^{\mu} = \frac{g}{2 \cos \theta_W} \bar{f} \gamma^\mu(g_{V,f}^{eff} - g_{A,f}^{eff}\gamma_5)f.
 $$
 Our task is to find an expression for the effective couplings in terms of theory data, so that they can be compared with experiments.
-
 # Theoretical calculation at 1-loop
 In order to calculate them at 1-loop level, it is convenient to map them into an **effective radius ($\rho_f$) and angle ($\theta_f^e$)**:
 $$
@@ -28,7 +27,7 @@ Usually, the parameters are written as
 $$
 	\rho_{f} \equiv 1 + \Delta \rho_{f}, \quad \sin ^{2}\theta^{eff} = \sin ^{2}\theta_{W}(1 + \Delta \kappa)
 $$
-After a tedious calculation, we arrive at the result that 
+After a tedious calculation, we arrive at the result  
 $$
 \Delta \rho_{f} =  \frac{N_c y_t^2}{32\pi^2} = \frac{3m_t^2 G_F}{8\sqrt{2}\pi^2} 
 $$

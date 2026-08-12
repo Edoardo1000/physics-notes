@@ -98,7 +98,7 @@ $$
 
 # Experimental measurements
 
-*More on the measurement of the couplings can be found in [[Electron-Positron Annihilation and Z-Pole Observables]].*
+*More on the measurement of the couplings can be found in [[Electron-Positron Annihilation]].*
 
 All the cross sections we found produce **ellipses** in the $g_{V}-g_{A}$ plane. We then can find the values of $g_{v},g_{A},\sin \theta_{W}$.
 - We look at the intersections of the cylinders

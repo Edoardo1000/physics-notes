@@ -1,4 +1,4 @@
  - **[[Global Symmetries of the Standard Model]]**
 - **[[Baryon and Lepton Number]]**
- - **[[Custodial Symmetry]]**
+ - **[[Sigma Model for Higgs]]**
  - **[[Anomalies in the Standard Model]]**

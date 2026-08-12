@@ -15,6 +15,8 @@ $$
 H = \begin{pmatrix} H^{+} \\ \frac{v + h + i \phi^{0}}{\sqrt{2}} \end{pmatrix}, \quad \langle H \rangle = \frac{1}{\sqrt{2}}\begin{pmatrix} 0 \\ v \end{pmatrix}.
 $$
 We aligned $\langle H \rangle$ in the second component because this ensures a massless photon: we have $Q\langle H \rangle = 0$, implying that the photon corresponds to the unbroken generator. 
+
+The potential which causes the nonzero VEV is described in [[Higgs Boson Interactions]].
 ## Gauge Boson Masses
 When the Higgs field acquires its VEV, the covariant derivative generates *mass terms for the gauge bosons*.
 
@@ -40,15 +42,6 @@ From this, we also have the relation
 $$
 	G_{F} = \frac{1}{\sqrt{ 2 }v^{2}}.
 $$
-### The $\rho$ Parameter
-Since the various components of $H$ are linked by $SU(2)$ symmetry, *the masses are not independent of each other*. This relationship is defined by the **$\rho$ parameter**:
-$$
-\rho \equiv \frac{m_{W}^{2}}{m_{Z}^{2} \cos ^{2} \theta_{W}},
-$$
-which is equal to $1$ at tree level.
-
-Loop corrections to $\rho$ are found in [[Effective EW parameters and Rho]].
-
 ## Fermion Mass Generation 
 Because the Standard Model is **chiral** (left and right-handed fields have different $SU(2)$ quantum numbers), explicit fermion mass terms like $m \bar{\psi}_L \psi_R$ are forbidden by gauge invariance. 
 

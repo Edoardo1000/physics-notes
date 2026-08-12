@@ -1,8 +1,6 @@
 ## Foundations
-- **[[Flavor Symmetry]]**
 - **[[Quark Mass Basis and CKM Matrix]]**
 - **[[CKM Parametrization and Geometry]]**
-- **[[Lepton Families]]**
 --- 
 ## Weak decays
 

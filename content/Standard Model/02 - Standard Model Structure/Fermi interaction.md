@@ -1,12 +1,5 @@
 ## Historical Motivation
-Before quarks or $W$ bosons were discovered, physicists needed a way to mathematically describe radioactive beta decay ($n \to p + e^- + \bar{\nu}_e$). In 1933, Fermi proposed a low-energy effective field theory using a local four-fermion contact interaction.
-
-## Beta Decay
-Originally proposed by Fermi in 1933 to describe nuclear beta decay ($n \to p + e^- + \bar{\nu}_e$) via a local four-fermion interaction vector current:
-$$
-\mathcal{L}_{F} = - \frac{4G_{F}}{\sqrt{2}}J_{+}^{\mu} J_{-}^{\mu}
-$$
-*More on the current in [[Gauge Boson Mixing and Currents]].*
+Before $W$ bosons were discovered, physicists needed a way to mathematically describe radioactive beta decay ($n \to p + e^- + \bar{\nu}_e$). In 1933, Fermi proposed a low-energy effective field theory using a local four-fermion contact interaction.
 ## 2. Parity Violation and the Axial Current
 In 1956, Lee and Yang realized weak interactions might violate parity. This led to the inclusion of an **axial-vector current** proposed by Feynman, Gell-Mann, Sudarshan, and Marshak.
 

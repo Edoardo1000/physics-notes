@@ -1,9 +1,9 @@
  - **[[Standard Model Parameter Values]]**
 - **[[Historical bounds on input Parameters]]**
 - **[[Electron-Neutrino Scattering]]**
-- **[[Electron-Positron Annihilation and Z-Pole Observables]]**
+- **[[Electron-Positron Annihilation]]**
 - **[[Atomic Parity Violation]]**
  - **[[Running of the Electromagnetic Coupling]]**
- - **[[Effective EW parameters and Rho]]**
+ - **[[Effective EW parameters]]**
  - **[[Calculation of the Rho parameter]]**
 - **[[LEP Precision EW Experiments]]**

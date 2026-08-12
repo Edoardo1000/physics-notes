@@ -14,7 +14,7 @@ $$
 where $C_{1q}$ and $C_{2q}$ are **effective coefficients**. Note that the Hamiltonian has the opposite sign with respect to the Lagrangian.
 
 >[!math]- Derivation: Effective Coefficients
-> From the interaction in [[Electron - Neutrino Scattering]], we see that the parity violating part comes from terms in the interaction Lagrangian which contain a $\gamma_{5}$ factor.
+> From the interaction in [[Electron-Neutrino Scattering]], we see that the parity violating part comes from terms in the interaction Lagrangian which contain a $\gamma_{5}$ factor.
 > For example, we have 
 > $$
 > C_{1q} = -2g_{A}^{e} g_{V}^{q} = g_{V}^{q}.
