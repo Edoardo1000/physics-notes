@@ -115,4 +115,4 @@ $$
 	\Delta = \frac{\delta m^{2}}{m^{2}} \leftrightarrow \Lambda \leq 4\pi v \frac{1}{\Delta}.
 $$
 # UV-completion
-*Take a look at [[Technicolor Theory]].*
+*Take a look at [[Techicolor]].*

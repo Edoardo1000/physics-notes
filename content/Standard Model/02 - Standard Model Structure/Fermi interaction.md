@@ -6,7 +6,7 @@ Originally proposed by Fermi in 1933 to describe nuclear beta decay ($n \to p + 
 $$
 \mathcal{L}_{F} = - \frac{4G_{F}}{\sqrt{2}}J_{+}^{\mu} J_{-}^{\mu}
 $$
-*More on the current in [[Gauge Boson Mixing and Neutral Currents]].*
+*More on the current in [[Gauge Boson Mixing and Currents]].*
 ## 2. Parity Violation and the Axial Current
 In 1956, Lee and Yang realized weak interactions might violate parity. This led to the inclusion of an **axial-vector current** proposed by Feynman, Gell-Mann, Sudarshan, and Marshak.
 

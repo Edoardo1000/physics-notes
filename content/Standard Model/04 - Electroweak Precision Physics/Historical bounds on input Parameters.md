@@ -1,10 +1,8 @@
-
 ### Experimental Bound on the W Boson Mass
-From the tree-level relations derived in [[Gauge Boson Mixing and Neutral Currents]], we can express the mass of the $W$ boson as:
+From the tree-level relations derived in [[Gauge Boson Mixing and Currents]], we can express the mass of the $W$ boson as:
 $$
-m_{W}^{2} = \frac{\pi \alpha_{\mathrm{em}}}{\sqrt{ 2 }G_{F}\sin ^{2} \theta_{W}} = \frac{(37.3 \ \mathrm{GeV})^{2}}{\sin ^{2} \theta_{W}}
+m_{W}^{2} = \frac{\pi \alpha_{\mathrm{em}}}{\sqrt{ 2 }G_{F}\sin ^{2} \theta_{W}} = \frac{(37.3 \ \mathrm{GeV})^{2}}{\sin ^{2} \theta_{W}}.
 $$
-
 Because $\sin^{2}\theta_W \le 1$, this relation sets a  lower bound on the mass of a weak vector boson: $m_W > 37.3 \text{ GeV}$. 
 
 ### Theoretical Upper Bound on the Higgs Mass (Weak Coupling / Triviality)

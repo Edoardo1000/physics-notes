@@ -1,13 +1,14 @@
+---
+tags:
+  - topic/electroweak
+  - topic/standard-model
+---
+>[!hint]- Prerequisites
+>- [[Particle Scattering]]
 # Weak couplings
-From [[Gauge Boson Mixing and Neutral Currents]], we know that there should be the $Z$ boson, which interacts via the neutral current.
-
-We can write the neutral current using the **axial and vector couplings**:
+We can write the neutral current from [[Gauge Boson Mixing and Currents]] using the **axial and vector couplings**:
 $$
-	J_{\mu}^{nc} = \frac{1}{2} \sum_{f} \bar{f} \gamma_{\mu} (g_{V} - g_{A} \gamma_{5})f.
-$$
-The Lagrangian is thus given by 
-$$
-	\mathcal{L}^{nc} = -\frac{ig}{\cos\theta_{W}}Z^{\mu}J_{\mu}^{nc}
+	J_{\mu}^{nc} = \frac{1}{2} \sum_{f} \bar{f} \gamma_{\mu} (g_{V} - g_{A} \gamma_{5})f,\quad g_{V} = T^{3} - 2 \sin ^{2}\theta_{W} Q,\quad g_{A}=T^{3}.
 $$
 >[!math]- Derivation: left-right and axial-vector couplings
 > To derive the above expression, write the current as 
@@ -24,9 +25,8 @@ $$
 > $$
 > we get the desired relation.
 
-
 # $Z$ Boson exchange
-## Fermi Constant
+## Fermi constant for the neutral current
 Consider a $Z$ exchange process, such as ${\nu}_{\mu} + e \to\nu_{\mu}+e$.
  By looking at the tree-level diagrams for the neutral current Lagrangian, we have the overall factor 
 $$
@@ -35,15 +35,13 @@ $$
 From this, we deduce that **at tree level the neutral and charged Fermi constants are equal**.
 
 ## Cross Section $(\nu_{\mu}+e\to \nu_{\mu}+e)$
-*The definition of cross section can be found in [[Particle Scattering]]*.
-
 - **Note:** the cross section results are in the limit of **massless electrons**.
 
-For the neutrino, we have $g_{A} = g_{V} = \frac{1}{2}$. Thus, the effective interaction Lagrangian is 
+For the neutrino, we have $g_{A} = g_{V} = \frac{1}{2}$. Thus, the *effective interaction* Lagrangian is 
 $$
-	\mathcal{L} = \frac{G_{F}}{\sqrt{ 2 }}[\bar{\nu}\gamma_{\mu}(1-\gamma_{5})\nu][\bar{e}\gamma^{\mu}(g_{V}-g_{A}\gamma_{5})e]
+	\mathcal{L} = \frac{G_{F}}{\sqrt{ 2 }}[\bar{\nu}\gamma_{\mu}(1-\gamma_{5})\nu][\bar{e}\gamma^{\mu}(g_{V}-g_{A}\gamma_{5})e],
 $$
-From this interaction, we get the *scattering cross section*:
+from which we get the *scattering cross section*:
 $$
 	\sigma(\nu_{\mu}+e\to \nu_{\mu}+e) = \frac{G_{F}^{2} s}{\pi}\left( g_{L}^{2} + \frac{1}{3}g_{R}^{2} \right).
 $$
@@ -69,9 +67,7 @@ $$
 > from which the differential cross section and the total one can be found.
 
 ## Cross Section $(\bar{\nu}_{\mu} + e \to \bar{\nu}_{\mu} + e)$
- Now the cross section can be inferred from the previous one we found. The key idea is that **the weak force couples to left-chiral fields**. The fundamental field is $\nu_{L}$, which has left chirality, meaning that **the neutrino has negative helicity**, while **the antineutrino has positive helicity**.
-
-*The difference between chirality and heliticy is found [[Spinors and Chiral Theories#Helicity and Chirality|here]]*.
+ Now the cross section can be inferred from the previous one we found. The key idea is that **the weak force couples to left-chiral fields**. The fundamental field is $\nu_{L}$, which has left chirality, meaning that **the neutrino has negative [[Spinors and Chiral Theories#Helicity and Chirality|helicity]]**, while **the antineutrino has positive helicity**.
 
 From the point of view of the electron, this means that the left and right components of the interaction swap. Thus, the cross section is given by 
 $$

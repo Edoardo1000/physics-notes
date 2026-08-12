@@ -1,3 +1,3 @@
- 
 * **[[Glashow-Weinberg-Salam Model]]**
-* **[[Gauge Boson Mixing and Neutral Currents]]**
+* **[[Gauge Boson Mixing and Currents]]**
+* **[[Electroweak Mass Generation]]**
