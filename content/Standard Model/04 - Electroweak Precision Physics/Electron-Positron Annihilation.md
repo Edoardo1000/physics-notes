@@ -1,4 +1,4 @@
-Consider the process experimentally studied at [[LEP Precision EW Experiments|LEP]] 
+Consider the process
 $$
 	e + \bar{e} \to \gamma^{*} / Z^{*} \to f + \bar{f},
 $$
@@ -58,4 +58,15 @@ $$
 **Observation:** from the [[Standard Model Parameter Values]], we see that $g_{V}$ is very small. Thus, the weak contribution to the total cross section is very *difficult to measure*.
 
 **Observation:** In the expression for the total cross section, the contribution from $g_{A}$ is at *second order*. We have to do something else to measure parity violation effects.
- 
+# One-loop level cross section
+At one-loop level, the leading contribution to the cross section near the $Z$ pole is given by
+$$
+	\sigma(s)_{e e \to ff} \approx \frac{12\pi}{m_{Z}^{2}}\Gamma_{e} \Gamma_{f} \frac{s}{(s-m_{Z}^{2})^{2} + m_{Z}^{2}\Gamma_{Z}^{2}},
+$$
+where 
+$$
+	\Gamma_{f} = 4N_{c} \Gamma_{0} [(g^{eff}_{V,f})^{2} R_{V}+ (g^{eff}_{A,f})^{2}R_{A}], \quad \Gamma_{0} = \frac{G_{F}m_{Z}^{2}}{24\pi \sqrt{ 2 }},
+$$
+$N_{c}$ is the number of colors of the fermion, and $R_{V}$ and $R_{A}$ are functions encoding QCD and QED radiative corrections.
+
+Here, $g_{V}^{eff}$ and $g_{A}^{eff}$ are the [[Effective EW parameters|effective couplings]] at one-loop level.
