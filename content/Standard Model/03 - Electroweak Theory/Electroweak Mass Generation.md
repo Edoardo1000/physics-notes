@@ -10,7 +10,7 @@ tags:
 
 We need to *give mass to the $W$ and $Z$ bosons*, while still maintaining a **massless photon**. This is achieved by introducing the **Higgs doublet**. 
 ## Higgs Doublet
- To break $SU(2)_L \times U(1)_Y \to U(1)_{\text{em}}$, we introduce a complex scalar $SU(2)$ doublet with Hypercharge $Y=1$:
+ To break $SU(2)_L \times U(1)_Y \to U(1)_{\text{em}}$, we introduce a complex scalar $SU(2)$ doublet with Hypercharge $Y=\frac{1}{2}$:
 $$
 H = \begin{pmatrix} H^{+} \\ \frac{v + h + i \phi^{0}}{\sqrt{2}} \end{pmatrix}, \quad \langle H \rangle = \frac{1}{\sqrt{2}}\begin{pmatrix} 0 \\ v \end{pmatrix}.
 $$

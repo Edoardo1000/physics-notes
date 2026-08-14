@@ -20,19 +20,19 @@ The full gauge group for the electroweak sector is $SU(2)_L \times U(1)_Y$:
 
 Weak hypercharge $Y$ is defined to bridge the gap between electric charge $Q$ and the third component of weak isospin $T^3_L$ via the **Gell-Mann-Nishijima formula**:
 $$
-Q = T^{3}_{L} + \frac{Y}{2}
+Q = T^{3}_{L} + Y
 $$
 
 ## Field Representations and Quantum Numbers
-Considering also the *color part* coming from QCD, and sing the conjugate basis to write all right-handed fields as left-handed anti-fields, the particle representations under $SU(3)_c \times SU(2)_L \times U(1)_Y$ are:
+Considering also the *color part* coming from QCD, and using the conjugate basis to write all right-handed fields as left-handed anti-fields, the particle representations under $SU(3)_c \times SU(2)_L \times U(1)_Y$ are:
 
-| Field                 | $SU(3)_c$ | $SU(2)_L$ | $U(1)_Y$ |
-| :-------------------- | :-------: | :-------: | :------: |
-| $Q = (u_L, d_L)^T$    |     3     |     2     |   1/3    |
-| $L = (\nu_L, e_L)^T$  |     1     |     2     |    -1    |
-| $u^c$ (RH Up Quark)   | $\bar{3}$ |     1     |   -4/3   |
-| $d^c$ (RH Down Quark) | $\bar{3}$ |     1     |   2/3    |
-| $e^c$ (RH Electron)   |     1     |     1     |    2     |
+| Field                | $SU(3)_c$ | $SU(2)_L$ | $U(1)_Y$ |
+| :------------------- | :-------: | :-------: | :------: |
+| $Q = (u_L, d_L)^T$   |     3     |     2     |   1/6    |
+| $L = (\nu_L, e_L)^T$ |     1     |     2     |   -1/2   |
+| $u^c$                | $\bar{3}$ |     1     |   -2/3   |
+| $d^c$                | $\bar{3}$ |     1     |   1/3    |
+| $e^c$                |     1     |     1     |    1     |
 
 ## Unbroken Interaction Lagrangian
 *Before any mass is generated*, the interaction between the fermions and the gauge bosons is dictated strictly by the covariant derivative 

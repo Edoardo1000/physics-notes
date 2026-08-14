@@ -34,3 +34,4 @@ In order to compare experimental data with theoretical predictions, a fit of the
 
 The fit is made **assuming QED and QCD** are exact, and the experimental values of $g_{V}^{eff}, g_{A}^{eff}$ are obtained.
 Since those parameters are not purely experimental, but require some theoretical working assumptions, they sit right in the middle of theory and experiment, and are thus called **pseudo-observables**.
+

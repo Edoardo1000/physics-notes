@@ -74,4 +74,68 @@ Now, the relevant part is the one in parentheses. Using that $c_{W}^{2} \Pi_{Z Z
 $$
 	\Delta \rho_{f} \approx \frac{1}{m_{W}^{2}}(\Pi_{33}(0)-\Pi_{WW}(0))
 $$
-# Calculation of the loops
+# Goldstone modes trick
+
+To find $\Pi_{AA}(0)$, consider the low-energy effective Lagrangian obtained from expanding the Higgs sector and using 
+$$
+	H \approx \begin{pmatrix}
+	i\pi^{+} \\ \frac{v + h + i\pi^{0}}{\sqrt{ 2 }}.
+	\end{pmatrix}
+$$
+Retaining only second-order interactions in the fields, the *bare* Lagrangian reads (suppose the field renormalizations factors are $1$)
+$$
+	\mathcal{L} = -\frac{1}{4}Z_{\mu \nu}Z^{\mu \nu} - \frac{1}{2}W_{\mu \nu}^{+}W^{-}_{\mu \nu}+Z_{+}\lvert \partial_{\mu}\pi^{+} - m_{W}W^{+} \rvert ^{2} + \frac{1}{2}Z_{0}(\partial_{\mu}\pi^{0} + m_{Z} Z_{\mu})^{2}.
+$$
+Computing the quantum effective action for $\pi^{0}$, we find 
+$$
+	\Gamma_{\pi^{0}\pi^{0}} = p^{2} + \delta Z_{0}p^{2} + \Sigma_{0}(p^{2}),\quad \delta Z_{0} = Z_{0}-1,
+$$
+with $\Sigma_{0}(p^{2})$ the sum of 1PI diagrams appearing in the $\pi^{0}$ propagator. Note that $\Sigma_{0}(0)=0$ since Goldstone modes are massless. Taylor expanding $\Sigma_{0}$, we obtain that the quantum effective action contains the term 
+$$
+	\Gamma_{\mathrm{eff}} \supset \frac{K_{0}}{2}(\partial_{\mu}\pi^{0})^{2},\quad K_{0} \equiv 1 + \delta Z_{0} + \Sigma_{0}'(0).
+$$
+Now, gauge invariance implies that the quantum effective action must take the form 
+$$
+	\Gamma_{\mathrm{eff}} \supset \frac{K_{0}}{2}(\partial_{\mu}\pi^{0}+m_{Z}Z_{\mu})^{2} + K_{+}\lvert \partial_{\mu}\pi^{+} - m_{W}W_{\mu} \rvert ^{2},
+$$
+where the definition of $K_{+}$ is analogous to the one of $K_{0}$.
+Looking now at the vector part of the quantum effective action, we have 
+$$
+	\Gamma_{Z Z} = F_{Z}(p^{2})p^{2} - K_{0} m_{Z}^{2},
+$$
+with $F_{Z}(p^{2})$ a function containing loops and counterterms. It is not relevant since $F_{Z}(p^{2})p^{2}\bigr|_{p^{2}=0} =0$. From this we find 
+$$
+	\frac{\Pi_{Z Z}(0)}{m_{Z}^{2}}=K_{0}-1,\quad \frac{\Pi_{WW}(0)}{m_{W}^{2}} = K_{+}-1.
+$$
+From which we find 
+$$
+	\Delta \rho_{f} \approx K_{+} - K_{0} = \Sigma_{+}'(0) - \Sigma_{0}'(0).
+$$
+Note that $Z_{0}=Z_{+}$, since the two couplings come from the same interaction in the Standard Model, so they cancel in the final expression.
+# Goldstone-fermion loops
+
+The Yukawa interaction from the Standard Model is written as 
+$$
+	\mathcal{L}_{Y} \supset -\frac{i}{v} \pi^{0} (m_{t} \bar{t}\gamma^{5}t - m_{b}\bar{b}\gamma^{5}b) + \frac{\sqrt{ 2 }}{v}\pi^{+}\bar{t}(m_{t}P_{L}-m_{b}P_{R})b + \mathrm{h.c.},
+$$
+with $P_{L,R}$ the left and right projectors.
+Now, compute the loops 
+$$
+	\pi^{0} \to t\bar{t}, \bar{b} \to \pi^{0},\qquad \pi^{+}\to t\bar{b}\to \pi^{+},
+$$
+differentiate and take the difference.
+In the limit $m_{t}\gg m_{b}$, we find our final expression 
+$$
+	\Delta \rho_{f} = \frac{3G_{F}m_{t}^{2}}{8\sqrt{ 2 }\pi^{2}}.
+$$
+# Goldstone-boson loops
+
+In this case, the relevant terms come from $g'$. We need to calculate the loop diagrams 
+$$
+	\pi^{3} \to B_{\mu},h\to \pi^{3},\qquad \pi^{1,2}\to \pi^{1,2},B_{\mu}\to \pi^{1,2},
+$$
+and subtract them. The result goes like 
+$$
+	\log\left( \frac{m_{h}}{m_{W}} \right) \frac{g'^{2}}{16\pi^{2}}.
+$$
+Since the term is ~1/1000, LEP was needed for such precise measurements. Moreover, since the logarithm is a slow function, predictions about $m_{h}$ were hard to do using this process.
