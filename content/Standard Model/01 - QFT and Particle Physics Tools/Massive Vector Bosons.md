@@ -1,6 +1,3 @@
-## Historical Motivation
-[[Fermi interaction| Fermi's theory]] was highly successful at low energies, but its point-like nature caused probabilities to exceed 100% at high energies. Physicists tried to "UV-complete" the theory by introducing a heavy mediator (the $W$ boson) by hand. This note explains mathematically why simply adding a mass term to a vector field is doomed to fail.
-
 ## Proca Lagrangian
 If we try to UV-complete Fermi theory by simply introducing a massive charged vector boson ($W^\mu$) by hand, the Lagrangian reads:
 $$

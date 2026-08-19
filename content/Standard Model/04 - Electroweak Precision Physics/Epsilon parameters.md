@@ -7,6 +7,10 @@ $$
 	\epsilon_{3} & = c_{W}^{2} \Delta \rho + (c_{W}^{2}-s_{W}^{2})\Delta \kappa.
 	\end{align}
 $$
+The key idea is that 
+- $\epsilon_{1}$ measures custodial symmetry breaking;
+- $\epsilon_{2}$ measures  the remaining correction to $m_{W}$;
+- $\epsilon_{3}$ measures neutral-current mixing.
 For the Standard Model we have 
 $$
 \begin{align}
@@ -24,9 +28,15 @@ $$
 where $SD,LD$ stand for short distance and long distance corrections. We have
 $$
 	\begin{align}
-	\Delta\epsilon_{1}\bigr|_{SD}  & = T - W - Y \frac{s_{W}}{c_{W}} + 2X \frac{s_{W}}{c_{W}}, \\
-	\Delta\epsilon_{2}\bigr|_{SD}  & = U - W -V + 2X \frac{s_{W}}{c_{W}}, \\
-	\Delta\epsilon_{3} \bigr|_{SD}  & = S - W - Y + \frac{1}{s_{W}c_{W}}X.
+	\Delta\epsilon_{1}\bigr|_{SD}  & = T - W - Y \frac{s_{W}^{2}}{c_{W}^{2}} + 2X \frac{s_{W}}{c_{W}}, \\
+	\Delta\epsilon_{2}\bigr|_{SD}  & = U + W -V + 2X \frac{s_{W}}{c_{W}}, \\
+	\Delta\epsilon_{3} \bigr|_{SD}  & = S - W - Y + \frac{X}{s_{W}c_{W}}.
 	\end{align}
 $$
-In this case, $\Delta\epsilon_{2}\bigr|_{SD}$ is small with respect to the others.
+At leading order, we have 
+$$
+	\Delta\epsilon_{1}\bigl|_{SD} \approx T,\quad 
+	\Delta\epsilon_{2}\bigl|_{SD} \approx W-Y,\quad
+	\Delta\epsilon_{3}\bigl|_{SD} \approx S.
+$$
+Notice that $U$ is suppressed since it comes from operators with even higher dimension.

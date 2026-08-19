@@ -22,7 +22,7 @@ $$
 $$
 From this, we see the usual [[Decay and Optical Theorem#Breit-Wigner distribution|Breit-Wigner distribution]].
 
->[!math]- Derivation of the cross section
+>[!math]- Derivation:  the cross section
 >the initial electron and positron have momenta $p,p'$ respectively, while the muon and antimuon have momenta $k,k'$. Our calculations are in the massless fermion limit.
 >The photon channel amplitude is 
 >$$

@@ -7,7 +7,7 @@ tags:
 >- [[Spinors and Chiral Theories]]
 
 >[!info]- Historical note
->In the origin, there was [[Fermi interaction|Fermi theory]], which had a nonrenormalizable contact interaction. 
+>In the origin, there was [[Fermi Interaction and Neutron Decay|Fermi theory]], which had a nonrenormalizable contact interaction. 
 >Introducing a *massive vector boson* as a mediator explained the contact interaction, but interacting massive vectors behave badly in the UV.
 >Glashow later identified the $SU(2) \times U(1)$ Yang-Mills structure, which fixes the interactions and gave important cancellations in the UV, but masses still had to be added by hand and breaking gauge symmetry.
 >Weinberg and Salam used the [[Higgs Mechanism]] to furnish mass to those particles without breaking gauge invariance, rendering the theory well-behaved in the UV.

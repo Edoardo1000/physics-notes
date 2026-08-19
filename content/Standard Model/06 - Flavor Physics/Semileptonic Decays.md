@@ -6,7 +6,7 @@ $$
 $$
 
 # Effective Lagrangian
-The effective Lagrangian follows the same principle as the [[Fermi interaction]] one. The interaction term is given by 
+The interaction term is given by 
 $$
 	\mathcal{L}^{\mathrm{semilep}} = \frac{4G_{F}}{\sqrt{ 2 }}V_{ij} (\bar{u}_{L}^{i}\gamma_{\mu}d_{L}^{j}) (\bar{\ell}_{L} \gamma^{\mu}\nu_{L}).
 $$

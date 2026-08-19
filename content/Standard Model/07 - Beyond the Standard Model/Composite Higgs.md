@@ -1,11 +1,11 @@
- We see that the [[Sigma Model for Higgs#Effective theory|effective Lagrangian]] is a nonlinear sigma-model, identical to the **chiral Lagrangian**.
+ We see that the [[Sigma Model for Higgs#Effective theory|effective Lagrangian]] is a nonlinear sigma-model, identical to the chiral Lagrangian.
 The effective theory breaks down when loop contributions become comparable to tree-level amplitudes, which happens at a scale 
 $$
 	E \sim \frac{4\pi v}{\sqrt{ N_{\pi} }},
 $$
-and *nonperturbative effects* become relevant.
+and nonperturbative effects become relevant.
 
-Now, we know that the Higgs sector of the Standard Model is the **UV completion** of this effective theory, and the cutoff scale disappears. In particular, in the Standard Model the Higgs is *weakly interacting* above this scale.
+Now, we know that the Higgs sector of the Standard Model is the UV completion of this effective theory, and the cutoff scale disappears. In particular, in the Standard Model the Higgs is weakly interacting above this scale.
 
 Now suppose we wanted to *UV-complete the effective theory in some other way*. Looking at the interaction between the Goldstone modes and the Higgs boson, the possible terms are
 $$
@@ -24,7 +24,7 @@ A measurement of the value of $a$ would then give us an estimate of the *new phy
 Usually, before reaching the limit, **resonances become relevant**.
 
 ## Minimal composite Higgs
-If Higgs is the Goldstone mode of some *symmetry breaking*, what might be original group?
+If Higgs is the Goldstone mode of some symmetry breaking, what might be original group?
 
 The Standard Model has $SO(4)$ **custodial symmetry**. Moreover, we have the Higgs doublet which contains four bosons. Now, the symmetry breaking $SO(5)\to SO(4)$ produces exactly four Goldstones, which is what we need.
 So we might suppose that this is the right choice for the symmetry group.
