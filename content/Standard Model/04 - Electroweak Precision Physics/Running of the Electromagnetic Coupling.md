@@ -16,7 +16,7 @@ $$
 $$
 where we separated the leptonic and hadronic contributions. We are interested in finding the hadronic part.
 
-The key idea is the hypothesis that the propagator is an **analytic function** of the variable $q^{2}$. This, along with the **optical theorem**, permits us to find an expression for the propagator.
+The key idea is the hypothesis that the propagator is an analytic function of the variable $q^{2}$. This, along with the [[Decay and Optical Theorem|optical theorem]], permits us to find an expression for the propagator.
 Our final result for the running of the fine structure constant is 
 $$
 	\Delta \alpha_{\mathrm{em}}(q^{2}) = \frac{\alpha}{3\pi} q^{2} \mathcal{P}\int_{4m_{\pi}^{2}}^{\infty} \frac{R_{h}(s)}{s(s-q^{2})}ds,
@@ -25,7 +25,7 @@ with
 $$
 	R_{h}(s) \equiv \frac{3}{\alpha} \mathrm{Im}\Pi(s) = \frac{3s}{4\pi\alpha^{2}}\sigma(e \bar{e}\to \mathrm{had.}).
 $$
->[!math]- Derivation of the running of $\alpha$
+>[!math]- Derivation: running of $\alpha$
 >From the optical theorem we know that
 >$$
 >\mathrm{Im}\Pi(s) = \sum_{\mathrm{state}} \lvert A(\gamma \to \mathrm{state}) \rvert ^{2}.

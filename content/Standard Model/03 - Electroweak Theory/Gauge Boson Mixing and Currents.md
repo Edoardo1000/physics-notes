@@ -49,7 +49,10 @@ with
 $$
 	J_{\mu}^{em} = \sum_{\psi} \bar{\psi}\gamma_{\mu}Q\psi,\quad J_{\mu}^{nc} = \sum_{\psi}\bar{\psi}(T^{3}-\sin ^{2}\theta_{W} Q)\psi,
 $$
-where the sum runs over both left and right fermions, and $T^{3}$ is zero for right fermions.
+where the sum runs over both left and right fermions, and $T^{3}$ is zero for right fermions. We also have 
+$$
+	g = \cos\theta_{W}\sqrt{ g^{2}+g'^{2} },\quad g' = \sin\theta_{W} \sqrt{ g^{2}+g'^{2} }.
+$$
 
 >[!note] Note on the angle convention
 >Usually, $\sin\theta_W$ and $\cos\theta_W$ are denoted by $s_W,c_W$.

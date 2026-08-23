@@ -17,3 +17,4 @@
 # Effective interactions
 
 * **[[Fermi Interaction and Neutron Decay]]**
+- **[[Quantum Effective Action]]**
