@@ -18,43 +18,53 @@ $$
 	\ket{M_{L,H}} = p\ket{M^{0}}  \pm q\ket{\bar{M}^{0}} .
 $$
 Where the labels stand *heavy and light mesons*. 
-We have that **the state is CP invariant $\iff \left| \frac{p}{q} \right| =1$**.
+We have that **the state is CP invariant $\iff \left| \frac{q}{p} \right| =1$**.
 
 After a short calculation, we find
 $$
-	\left( \frac{p}{q} \right)^{2} = \frac{M_{12}^{*} - \frac{i}{2} \Gamma_{12}^{*} }{M_{12} - \frac{i}{2}\Gamma_{12}}.
+	\left( \frac{q}{p} \right)^{2} = \frac{M_{12}^{*} - \frac{i}{2} \Gamma_{12}^{*} }{M_{12} - \frac{i}{2}\Gamma_{12}}.
 $$
 Taking, the modulus square, we find the relation 
 $$
-	\left\lvert  \frac{p}{q}  \right\rvert = 1 \iff \mathrm{Im}(M_{12} \Gamma_{12}^{*})=0
+	\left\lvert  \frac{q}{p}  \right\rvert = 1 \iff \mathrm{Im}(M_{12} \Gamma_{12}^{*})=0
 $$
 
 ### Example: kaon decay
-Consider the decay of kaons into pions. From $K^{0},\bar{K}^{0}$, we can build CP eigenstates: 
-$$
-	\ket{K_{1}} = \frac{1}{\sqrt{ 2 }}(\ket{K^{0}} + \ket{\bar{K}^{0}} ),\quad \ket{K_{2}} = \frac{1}{\sqrt{ 2 }}(\ket{K^{0}} - \ket{\bar{K}^{0}} ),
-$$
-which are CP-even and CP-odd, respectively. Now, these states can  decay into pions:
 
+Consider the case of the kaons $K^{0},\bar{K}^{0}$. For simplicity, let's first suppose that the interaction corresponding to kaon decay is CP invariant, which does not imply that that the complete effective Hamiltonian is also CP invariant.
+
+Because of this, the only possible decays are 
 $$
-	K_{S}^{+} \to \pi \pi^{+}, \quad K_{L}^{-}\to \pi \pi \pi^{-}.
+	K_{1} \to \pi + \pi,\quad K_{2} \to \pi + \pi + \pi,
 $$
-We observe that *the process with three pions is less likely to happen*, so $K_{L}$ has a **longer lifetime**.
-Now, CP acts on the kaons and pions by the transformation
+where we defined the CP eigenstates
 $$
-	K_{S}\to K_{S}, \quad K_{L} \to -K_{L}, \quad \pi\to-\pi,
+	\ket{K_{1}} = \frac{1}{\sqrt{ 2 }}(\ket{K^{0}} + \ket{\bar{K}^{0}} ),\quad \ket{K_{2}} = \frac{1}{\sqrt{ 2 }}(\ket{K^{0}} - \ket{\bar{K}^{0}} ).
 $$
-so if I measure a process like $_{L}\to \pi \pi$, I have a process which violates CP. Thus, we define the observables
+Now, the true physical particles which propagate through time are instead the Hamiltonian eigenstates 
 $$
-	\frac{\bra{\pi^{0} \pi^{0}} H \ket{K_{L}}}{\bra{\pi^{0} \pi^{0}} H \ket{K_{S}} } \equiv \eta_{00} = \epsilon_{k} + 2 \epsilon'_{k}, \quad \frac{\bra{\pi^{+}\pi^{-}} H \ket{K_{L}} }{\bra{\pi^{+}\pi^{-}} H \ket{K_{S}} } \equiv \eta_{+ -} = \epsilon_{k} + \epsilon_{k}'.
+	\ket{ K_{S,L}} \equiv p \ket{K^{0}}+ q \ket{\bar{K}^{0}},
 $$
-In general, I can define 
+where the pedices stand for "short" and "long", referring to their lifetimes. The second particle is long-lived because it decays in three pions, and since $m_{K}\approx 3 m_{\pi}$ its decay is greatly suppressed by the phase space.
+
+If $p \simeq q$, the physical states are slightly different from the CP eigenstates, and we define $\epsilon_{K}$ by
 $$
-	A_{CP} = \frac{\Gamma(M^{0}\to f)- \Gamma(\bar{M}^{0}\to f)}{\Gamma(M^{0}\to f)+\Gamma(\bar{M}^{0} \to f)}
+	\ket{K_{S}} \simeq \frac{\ket{K_{1}} + \epsilon_{K}\ket{K_{2}} }{\sqrt{ 1 + \lvert  \epsilon_{K}\rvert ^{2} }}, \quad \ket{K_{L}} \simeq \frac{\ket{K_{2}} + \epsilon_{K}\ket{K_{1}}}{\sqrt{ 1 + \lvert \epsilon_{K} \rvert ^{2} }}.
 $$
+Due to this mixing it is possible to have CP violating decays. In particular, the long-lived particle $K_{L}$ can decay in two pions, and the amplitude is given by 
+$$
+	A(K_{L}\to \pi \pi) \simeq \epsilon_{K} A(K_{1}\to \pi \pi).
+$$
+We define the experimental observables
+$$
+	\frac{\bra{\pi^{0} \pi^{0}} H \ket{K_{L}}}{\bra{\pi^{0} \pi^{0}} H \ket{K_{S}} } \equiv \eta_{00} = \epsilon_{K} - 2 \epsilon'_{K}, \quad \frac{\bra{\pi^{+}\pi^{-}} H \ket{K_{L}} }{\bra{\pi^{+}\pi^{-}} H \ket{K_{S}} } \equiv \eta_{+ -} = \epsilon_{K} + \epsilon_{K}',
+$$
+where the $\epsilon_{K}'$ has been added to take into account possible [[Direct CP Violation|direct CP violation]] effects. If these were zero, then $\eta_{00}$ and $\eta_{+-}$ would be equal.
+
+
 ## Example:  Kaon mixing
 $$
-K^{0} = s\bar{d}
+K^{0} = d\bar{s}
 $$
 In order to violate flavor and trigger the process $M^{0}\leftrightarrow \bar{M}^{0}$, we need a corresponding *Feynman diagram*. In fact, there is a box diagram involving the **charged current**. This diagram gives an amplitude
 $$
@@ -106,7 +116,7 @@ Moreover, we know that $\sum_{k} \xi_{k} = 0$ from unitarity, which implies (con
 $$
 \begin{align}
 	A  & = \sum_{l}\xi_{l}[\xi_{c}(F_{cl} - F_{0l}) + \xi_{t}(F_{tl} - F_{0l})]  \\
-	 & = \xi_{t}^{2}(F_{tt} + F_{00} - 2F_{t 0}) + \xi_{c}^{2}(F_{cc} + F_{00} - 2 F_{c 0}) + 2 \xi_{t} \xi_{c}(F_{ct} + F_{00} - F_{t_{0}}) \\
+	 & = \xi_{t}^{2}(F_{tt} + F_{00} - 2F_{t 0}) + \xi_{c}^{2}(F_{cc} + F_{00} - 2 F_{c 0}) + 2 \xi_{t} \xi_{c}(F_{ct} + F_{00} - F_{c 0}- F_{t_{0}}) \\
 	 & \equiv \xi_{t}^{2} A_{tt} + \xi_{c}^{2} A_{cc} + 2 \xi_{t} \xi_{c} A_{ct}.
 \end{align}
 $$

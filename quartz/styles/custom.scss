@@ -193,3 +193,8 @@ html[saved-theme] body .explorer h2 {
 .breadcrumbs {
   margin-bottom: 1.1rem !important;
 }
+
+/* Hide page listings from folder index pages */
+article.custom-index + .page-listing{
+  display:none;
+}

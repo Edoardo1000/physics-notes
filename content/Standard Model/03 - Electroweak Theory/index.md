@@ -1,6 +1,8 @@
 ---
 title: Electroweak Theory
 description: Notes on electroweak symmetry breaking, gauge bosons, and precision observables.
+cssclasses:
+  - custom-index
 ---
 
 These notes cover the construction and phenomenology of the electroweak sector of the Standard Model.
@@ -11,7 +13,7 @@ These notes cover the construction and phenomenology of the electroweak sector o
 
 - Gauge group $SU(2)_L \times U(1)_Y$
 - Fermion representations and hypercharge
-- Charged and neutral currents
+- [[Gauge Boson Mixing and Currents]]
 
 ### Symmetry breaking
 

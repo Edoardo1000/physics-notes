@@ -17,12 +17,12 @@ $$
 $$
 Observe that the last term might not be negligible since $Y_{t} \approx 1$.
 
-Now, we perform a *change of basis* 
+Now, we perform a change of basis 
 $$
 	Y_{d} \to \hat{Y}_{d}, \quad Y_{u} \to V_{CKM}\hat{Y}_{u},
 $$
 with $\hat{Y}_{d}, \hat{Y}_{u}$ diagonal.
-Because of this, we have the new **flavor-changing neutral current** 
+Because of this, we have the new flavor-changing neutral current 
 $$
 	b_{q} \bar{q}_{L} V_{CKM}^{\dagger} \hat{Y}_{u}^{\dagger}\hat{Y}_{u} V_{CKM}\gamma_{\mu}q_{L}.
 $$

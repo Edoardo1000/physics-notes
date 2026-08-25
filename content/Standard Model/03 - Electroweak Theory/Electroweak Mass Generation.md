@@ -49,7 +49,7 @@ Instead, fermions acquire mass by coupling to the Higgs doublet via **Yukawa int
 $$
 H^c = i \sigma_2 H^*,
 $$
-the *Yukawa sector* is
+the Yukawa sector is
 $$
 \mathcal{L}_{Y} = Y_{e} \bar{L}_{L} H e_{R} + Y_{d}\bar{Q}_{L} H d_{R} + Y_{u} \bar{Q}_{L} H^{c} u_{R} + \mathrm{h.c.}
 $$
@@ -67,4 +67,10 @@ $$
 This gives the general formula for all fermion masses in the Standard Model:
 $$
 m_{f} = \frac{1}{\sqrt{2}} Y_{f} v.
+$$
+### More than one flavor
+
+In this case, the Yukawa couplings are matrices in the [[Global Symmetries of the Standard Model#Flavor symmetry|flavours]]. So for example we have the coupling 
+$$
+	Y_{e}^{ij} \bar{L}_{L}^{i} H e_{R}^{j}.
 $$

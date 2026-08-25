@@ -37,12 +37,10 @@ where $V_{\mathrm{CKM}}$ is called the **CKM matrix**.
 > \bar{u}_{L} V_{\mathrm{CKM}}\gamma_{\mu}d_{L}, 
 > $$
 >with $V_{\mathrm{CKM}} \equiv V^{\dagger}$.
+>Notice that we did not need to rotate $d_{L}$ because we only need the mass matrix to be diagonal, while the interactions with $h$ and the Goldstones still remain due to gauge invariance. They disappear in the unitary gauge.
 
-The final group of symmetries is thus 
-$$
-	G_{\mathrm{SM}} = U(1)_{B} \times U(1)_{e} \times U(1)_{\mu} \times U(1)_{\tau}.
-$$
 ---
 #### See also
-- **[[CKM Parametrization and Geometry]]**
-- **[[Flavor Measurements and CP Violation]]**
+- [[CKM Parametrization and Geometry]]
+- [[Flavor Measurements and CP Violation]]
+

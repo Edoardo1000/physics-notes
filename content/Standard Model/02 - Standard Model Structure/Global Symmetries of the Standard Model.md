@@ -1,13 +1,13 @@
-In addition to its gauge symmetries, the Standard Model possesses some *extra global symmetries*. They do not arise because of some deeper reasons, but because they are **accidental symmetries**, meaning that the terms appearing in the effective Lagrangian which break them are *irrelevant*.
+In addition to its gauge symmetries, the Standard Model possesses some extra global symmetries. They do not arise because of some deeper reasons, but because they are accidental symmetries, meaning that the terms appearing in the effective Lagrangian which break them are irrelevant.
 
-A classical analogue is that of the **multipole expansion**:
+A classical analogue is that of the multipole expansion:
 - the monopole potential has $SO(3)$ symmetry,
 - the dipole potential has $SO(2)$ symmetry,
 - higher monopoles have still smaller symmetry groups.
-The reasoning with effective field theories is basically the same; higher order terms have *fewer and fewer symmetries*.
+The reasoning with effective field theories is basically the same; higher order terms have fewer and fewer symmetries.
 
 # Flavor symmetry
-Each fermion in the Standard Model comes in *three copies*. For example, for the electron, we have the triplet $\{ e,\mu,\tau \}$.
+Each fermion in the Standard Model comes in three copies. For example, for the electron, we have the triplet $\{ e,\mu,\tau \}$.
 The [[Glashow-Weinberg-Salam Model|gauge sector]] of the Lagrangian is invariant under mixing between these flavors:
 $$
 	\psi^{i} \to U^{i}_{j} \psi^{j},\quad U\in U(3).
@@ -16,15 +16,16 @@ Since there are five different fermion families, the flavor symmetry group is
 $$
 	U(3)^{5} \approx U(1)^{5} \times SU(3)^{5}.
 $$
-However, **Yukawa interaction** explictitly breaks flavor symmetry down to 
+However, [[Electroweak Mass Generation#Fermion Mass Generation|Yukawa interaction]] explictitly breaks flavor symmetry down to 
 $$
 	U(1)_{B} \times U(1)_{e} \times U(1)_{\mu} \times U(1)_{\tau},
 $$
 where $B$ is a quantum number called **baryon number**.
 
 - For the quantum numbers, see [[Baryon and Lepton Number]]
-- The explicit breaking of this symmetry is described by the [[Quark Mass Basis and CKM Matrix|CKM matrix]].
+- The explicit breaking of this symmetry is described by the [[Quark Mass Mixing and CKM Matrix|CKM matrix]].
 
+*You can find more in [[Flavor Physics]].*
 # Custodial symmetry
 From the [[Higgs Boson Interactions#1. The Higgs Potential and Self-Interactions|Lagrangian]] of the Higgs sector, the symmetry group is
 $$

@@ -35,7 +35,7 @@ $$
 	& +C_{1}(\mu)\left( -\frac{3\alpha_{S}}{4\pi } \ln \frac{\mu^{2}}{q^{2}}\right) + C_{2}(\mu)\left( 1 + \frac{3\alpha_{S}}{4 \pi N_{c}}\ln \frac{\mu^{2}}{q^{2}} \right) \langle \mathcal{O}_{2} \rangle  \biggr]
 	\end{align}
 $$
-**Observation:** Electroweak loops are negligible with respect to QED ones, since
+**Observation:** Electroweak loops are generally smaller than QCD corrections, since
 - $\alpha_{EW} \ll \alpha_S$;
 - there are factors $\frac{E^2}{m_W^2}$.
 **Observation:** We still need *Lattice calculations* to find $\langle \mathcal{O}_{1} \rangle, \langle \mathcal{O}_{2} \rangle$.
@@ -67,7 +67,7 @@ and we can diagonalize the anomalous dimension matrix by looking at
 $$
 	C_{\pm} = C_{1} \pm C_{2}.
 $$
-Using $\beta(\alpha) \approx -\beta_{0}  \frac{\alpha^{3}}{4\pi}$, we find 
+Using $\beta(\alpha) \approx -\beta_{0}  \frac{\alpha^{2}}{2\pi}$, we find 
 $$
 	C_{\pm}(\mu) = C_{\pm}(\mu_{0}) \left( \frac{\alpha(\mu)}{\alpha(\mu_{0})} \right)^{- 3 \gamma_{\pm}/\beta_{0}},
 $$

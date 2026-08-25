@@ -1,4 +1,8 @@
 I would like to build an effective Lagrangian for **all flavor processes**.
+The various flavor interactions all take the form 
+$$
+	\mathcal{H}_{\mathrm{eff}} = \frac{4G_{F}}{\sqrt{ 2 }}\sum_{i} \lambda_{i} C_{i}(\mu)O_{i}(\mu).
+$$
 The Lagrangian has many terms, describing different phenomena. Here is the Lagrangian 
 $$
 	\begin{align}

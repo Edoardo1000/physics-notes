@@ -5,18 +5,18 @@ $$
 $$
 We can take a look at the observable
 $$
-	A_{CP}(t) \equiv \frac{\Gamma(\bar{M}^{0}(t)\to f) - \Gamma(M^{0}(t))\to f}{\Gamma(M^{0}(t)\to f)+\Gamma(M^{0}(t)\to f)},
+	A_{CP}(t) \equiv \frac{\Gamma(\bar{M}^{0}(t)\to f) - \Gamma(M^{0}(t)\to f)}{\Gamma(\bar{M}^{0}(t)\to f)+\Gamma(M^{0}(t)\to f)},
 $$
 since now the particle evolves in time. After some calculations we find
 $$
 \begin{align}
- A_{CP}(t)  &  = \frac{2(1-\lvert \lambda_{f} \rvert ^{2})\cos \Delta\omega t - 2 \mathrm{Im}\lambda_{f} \sin \Delta\omega t}{1 + \lvert \lambda_{f} \rvert ^{2}} \equiv  \\
+ A_{CP}(t)  &  = \frac{(1-\lvert \lambda_{f} \rvert ^{2})\cos \Delta\omega t - 2 \mathrm{Im}\lambda_{f} \sin \Delta\omega t}{1 + \lvert \lambda_{f} \rvert ^{2}} \equiv  \\
   & \equiv C_{f} \cos \Delta\omega t - S_{f} \sin \Delta\omega t
 \end{align},
 $$
 with 
 $$
-\lambda_{f} \equiv \frac{\bar{A}_{f}}{A_{f}} \frac{q}{p},\quad A_{f} = \braket{ M^{0} | f },\quad \bar{A}_{f} = \braket{ \bar{M}^{0} | f } .
+\lambda_{f} \equiv \frac{\bar{A}_{f}}{A_{f}} \frac{q}{p},\quad A_{f} = \bra{f} H\ket{M^{0}} ,\quad \bar{A}_{f} = \bra{f} H \ket{\bar{M}^{0}}  .
 $$
 
 >[!math]- Derivation: formula for $A_{CP}(t)$

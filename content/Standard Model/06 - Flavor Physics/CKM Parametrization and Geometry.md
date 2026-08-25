@@ -1,12 +1,12 @@
 ### Parameters
-The CKM matrix is not generic, and possesses some constraints which reduce the number of its free parameters. In particular, the free parameters are
+The [[Quark Mass Mixing and CKM Matrix|CKM matrix]] is not generic, and possesses some constraints which reduce the number of its free parameters. In particular, the free parameters are
 - **$\frac{N(N-1)}{2}$ angles**,
 - **$\frac{(N-1)(N-2)}{2}$ phases**.
 
 >[!math]- Derivation: CKM matrix free parameters
 >A generic complex $N \times N$ matrix possesses $2N^{2}$ free parameters. However, unitarity halves the free parameters to $N^{2}$.
 >A matrix can be decomposed in a symmetric and an antisymmetric part: the antisymmetric one represents the angles of rotation, and there are $\frac{N(N-1)}{2}$ possible angles.
->The symmetric part represents multiplication by a phase, but it must be kept in mind that not all phases are physical. In particular, we can rotate quarks by phase factors, and the CKM matrix changes according to 
+>The symmetric part represents multiplication by a phase, but it must be kept in mind that not all phases are physical. In particular, we can rotate quarks by phase factors (remember that now the Yukawa matrices are diagonal), and the CKM matrix changes according to 
 >$$
 >V^{ij}_{\mathrm{CKM}} \to e^{ -i\theta_{i} }V^{ij}_{\mathrm{CKM}}e^{ i\phi_{j} }.
 >$$
@@ -40,14 +40,19 @@ $$
 \begin{align}
 	\sin\theta_{12}& \equiv \lambda  \sim 0.2,  \\
 	\sin\theta_{23}  & \equiv \lambda^{2}A,  \\
-	\sin\theta_{13}  & \equiv A\lambda^{3}(\rho-i \eta),
+	e^{ -i\delta }\sin\theta_{13}  & \equiv A\lambda^{3}(\rho-i \eta),
 \end{align}
 $$
 from which the matrix now takes the form (at leading order)
 $$
 	V_{CKM} \sim \begin{pmatrix}
-	1  & \lambda  & \lambda^{3}  \\
-	\lambda & 1 & \lambda^{2} \\
-	\lambda^{3} & \lambda^{2} & 1
+	1 - \frac{\lambda^{2}}{2}  & \lambda  & A\lambda^{3}(\rho - i \eta)  \\
+	-\lambda & 1 - \frac{1}{2}\lambda^{2} & A\lambda^{2} \\
+	A\lambda^{3}(1 - \rho - i \eta) & -A\lambda^{2} & 1
 	\end{pmatrix}.
 $$
+
+--- 
+### Unitarity triangle
+
+Since $V_{CKM}$ is unitary, its entries obey specific constraints, which are organized using the [[Unitarity Triangle]].

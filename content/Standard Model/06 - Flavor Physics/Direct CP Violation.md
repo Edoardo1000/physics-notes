@@ -25,7 +25,7 @@ where:
 - $\delta_k$ is called the **strong phase**. Usually comes from strong processes, such as intermediate particles going on-shell. Since strong interactions are CP invariant, the angle *does not change sign*.
 If we have for example two processes contributing to the amplitude, we find
 $$
-	A_{CP} = \frac{-4 a_{1} a_{2} \sin(\delta_{1}-\delta_{2}) \sin(\phi_{1}-\phi_{2})}{\lvert a_{1} \rvert ^{2} + \lvert a_{2} \rvert ^{2} + 2 \lvert a_{1} a_{2} \rvert \cos(\delta_{1}-\delta_{2})\cos(\phi_{1}-\phi_{2})}.
+	A_{CP} = \frac{-2 a_{1} a_{2} \sin(\delta_{1}-\delta_{2}) \sin(\phi_{1}-\phi_{2})}{\lvert a_{1} \rvert ^{2} + \lvert a_{2} \rvert ^{2} + 2 \lvert a_{1} a_{2} \rvert \cos(\delta_{1}-\delta_{2})\cos(\phi_{1}-\phi_{2})}.
 $$
 **Observation:** In order to measure CP violation, *I need both $\phi_{1} \neq \phi_{2}$ and $\delta_{1} \neq \delta_{2}$*.
 
