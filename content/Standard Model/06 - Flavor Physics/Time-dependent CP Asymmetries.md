@@ -1,5 +1,7 @@
-Suppose we have a meson in which we know its flavor at $t=0$. If the meson *mixes* over time with its antimatter correspondent, we should see **oscillations** in decay time.
-Consider a meson starting in the state $M^{0}$, and consider the process (for simplicity, suppose $\bar{f} = f$) 
+This phenonemon occurs when there is [[Meson Mixing|meson mixing]], combined with a decay channel common to both mesons and its antimatter partner.
+
+Thus, suppose the mesons $M^{0}, \bar{M}^{0}$ both decay into $f$. Since there is also meson mixing, there can be interference between different decay paths.
+If we start from the meson $M^{0}$, and look at its decay after some time $t$, there are two possible processes:
 $$
 	M^{0}\to f, \quad \bar{M}^{0} \to M^{0} \to f.
 $$
@@ -18,33 +20,13 @@ with
 $$
 \lambda_{f} \equiv \frac{\bar{A}_{f}}{A_{f}} \frac{q}{p},\quad A_{f} = \bra{f} H\ket{M^{0}} ,\quad \bar{A}_{f} = \bra{f} H \ket{\bar{M}^{0}}  .
 $$
+We see that this observable may not be zero even if both $\frac{\bar{A}_{f}}{A_{f}}, \frac{q}{p}$ have unit norm. Note that even though the single ratios change under rephasing of the states, their product remains constant, and is thus a legitimate physical observable.
 
->[!math]- Derivation: formula for $A_{CP}(t)$
->Our initial state evolves according to
->$$
->\begin{align} \ket{M^{0}(t)}   & = \frac{1}{2p}(e^{ i\omega_{L}t }\ket{M_{L}}  + e^{ i \omega_{H}t }\ket{M_{H}} ) \\ & = \frac{1}{2p} (e^{ i \omega_{L} t }(p \ket{M^{0}} +q\ket {\bar{M}^{0}}) + e^{ i \omega_{H}t }(p \ket{M^{0}- q} \ket{\bar{M}^{0}}  )). \end{align}.
->$$
->The amplitudes in function of time are thus given by
-> $$
-> \begin{align} \lvert \braket{ M^{0}(t) | f }  \rvert^{2}  & \sim \frac{1}{4}\lvert e^{ i \omega_{L}t } + e^{ i\omega_{H}t } + \lambda_{f} (e^{ i \omega_{L}t } - e^{ i \omega_{H}t })^{2} \rvert  \\ \lvert \braket{ \bar{M}^{0}(t) | f }  \rvert^{2}  & \sim \frac{1}{4}\lvert e^{ i \omega_{L}t } - e^{ i\omega_{H}t } + \lambda_{f} (e^{ i \omega_{L}t } + e^{ i \omega_{H}t })^{2} \rvert  \end{align}.
-> $$
->We observe that
->- pieces with $|\lambda|^2$ indicate direct or indirect CP violation;
->- pieces with $\lambda$ indicate interference between the two.
->Now we just have to expand the absolute value squared and plug it into the formula for $A_{CP}$.
-
-#### Example: B decay as a function of time
-I can measure the time-dependent interference between the processes
+To do the calculation, take 
 $$
-	B_{d}^{0}\to J /\psi + K_{S},\quad B_{d}^{0}\to \bar{B}_{d}^{0} \to J / \psi + K_{S}
+	\ket{M^{0}(t)} = g_{+}(t)\ket{M^{0}} + \frac{q}{p}g_{-}(t)\ket{\bar{M}^{0}}
 $$
-where I can measure the interference with the mixing $B^{0} \leftrightarrow \bar{B}^{0}$. It is a 1-loop process.
-
-I get the triangle angle 
+just like in [[Meson Mixing]]. The final expression requires 
 $$
-	\beta = \mathrm{Arg}\left( - \frac{V_{cd}V_{cb}^{*}}{V_{td}V_{tb}^{}} \right)
-$$
-and also 
-$$
-	\mathrm{Im}\lambda_{\psi K} = \sin 2\beta = \delta_{J / \psi}
+	\left\lvert  \frac{q}{p}  \right\rvert = 1
 $$

@@ -1,13 +1,13 @@
 *For the fermion mass generation in general, see [[Electroweak Mass Generation]].*
 
-In the Standard Model, neutrinos are massless fermions. However, we know from experiments that **they possess mass**, although very small. Various extensions of the Standard Model have been proposed to explain why neutrinos are so *light*.
+In the Standard Model, neutrinos are massless fermions. However, we know from experiments that they possess mass, although very small. Various extensions of the Standard Model have been proposed to explain why neutrinos are so light.
 
 # Dirac mass term
 We could just add a **mass term** to the Lagrangian 
 $$
 	\mathcal{L}_{l} = Y_{e} \bar{L} H e_{R} + Y_{\nu} \bar{L} H^{c}\nu_{R},
 $$
-with $\nu_{R}$ a particle which is a $SU(2)$ singles, has no hypercharge and no color, so **does basically nothing**. From the known Standard model parameters, we get a value of 
+with $\nu_{R}$ a particle which is a $SU(2)$ singlet, has no hypercharge and no color, so does basically nothing. From the known Standard model parameters, we get a value of 
 $$
 	Y_{\nu} \sim \frac{0.1 \ \mathrm{eV}}{10^{2} \times 10^{9} \ \mathrm{ eV}} \sim 10^{-12},
 $$
@@ -34,10 +34,10 @@ $$
 	\Lambda \sim 10^{14} \ \mathrm{eV}.
 $$
 
-# Seesaw mechanism
+# UV completion: seesaw mechanism
 The Weinberg operator is just an effective description of the neutrino mass. One of the questions that arises is what is the UV completion of the theory.
 
-A possible answer is given by adding a **very massive right neutrino** $N_{R}$.
+A possible answer is given by adding a very massive right neutrino $N_{R}$.
 This neutrino is a total singlet, so does not have to obey $SU(2)$ symmetry. Thus, we can make two mass terms with it:
 - *a Dirac mass term:* $-Y_{\nu}\bar{L}H^{c}N_{R}$, yielding a Dirac mass $m_{D}$,
 - *a Majorana mass term:* $-\frac{1}{2} M_{R} \bar{N}^{c}_{R}N_{R}$.
@@ -50,3 +50,5 @@ $$
 	\end{pmatrix},
 $$
 which can be diagonalized. If $M_{R}$ is very big, one of the eigenvalues gets very small, resulting in a tiny neutrino mass. 
+
+We see that after integrating out the heavy neutrino, we get back the effective Weinberg operator.

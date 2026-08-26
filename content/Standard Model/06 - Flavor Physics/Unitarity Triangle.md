@@ -67,3 +67,25 @@ $$
 	J = c_{12} c_{23}c_{13}^{2}s_{12}s_{23}s_{13} \sin\delta.
 $$
 Thus, if any of the angles vanished, then there would be no CP violation
+## Invariant expressions
+
+The observables we built were not invariant under $U(3)$ transformations. This is because we already diagonalized the Yukawa matrices. There is another way  to describe physical CP violation, and this is done through **invariants**. 
+
+Since, under a flavor transformations, the Yukawa matrices transform as (we use the spurion technique)
+$$
+	Y_{u} \to U^{\dagger}_{L}Y_{u}V_{u_{R}},\quad Y_{d}\to U_{L}^{\dagger} Y_{d} V_{d_{R}},
+$$
+from which we can build the matrices 
+$$
+	H_{u} = Y_{u}Y_{u}^{\dagger},\quad H_{d} = Y_{d}Y_{d}^{\dagger}.
+$$
+Now, quantities such as 
+$$
+	\mathrm{Tr}[H_{u},H_{d}]^{n},\quad \det[H_{u},H_{d}]
+$$
+are invariant. In particular, the determinant is CP-odd, and is a direct measure of physical CP violation.
+
+We also have the **Jarlskog relation**:
+$$	\det[Y_{u}Y_{u}^{\dagger},Y_{d}Y_{d}^{\dagger}] = 2iJ \prod_{i < j}(m_{u_{i}^{2}} - m_{u_{j}^{2}})(m_{d_{i}}^{2}-m_{d_{j}}^{2}).
+$$
+This relation shows that  **CP violation $\iff$ $J \neq 0$ and no quarks are degenerate**.

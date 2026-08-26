@@ -29,25 +29,3 @@ $$
 $$
 **Observation:** In order to measure CP violation, *I need both $\phi_{1} \neq \phi_{2}$ and $\delta_{1} \neq \delta_{2}$*.
 
-## Example
-In the $B^{+}$ decay, we have interference between the following two processes
-$$
-	B^{+} \to D^{0} + K^{+} \to f,\quad B^{+} \to \bar{D}^{0} + K^{+} \to f,
-$$
-where $f$ is a **common final state**. CP violation therefore originates from the *interference* between the two possible decay paths.
-
-At tree-level, we have 
-$$
-	\frac{A(B\to K \bar{D}^{0})}{A(B\to KD^{0})} \propto \frac{V_{ub}^{*}V_{cs}}{V_{cb}^{*}V_{us}}.
-$$
-This quantity, however, changes under a rephasing of $\ket{D^{0}},\ket{\bar{D}^{0}}$, so we need to *rescale* it to have physically meaningful quantities.
-
-The quantity we are able to measure is for example
-$$
-	\lambda_{Kf} \equiv \frac{A_{K\bar{D}}}{A_{KD}} \left( \frac{q}{p} \right)_{D} \sim \frac{V_{ub}^{*}V_{ud}}{V_{cd}V_{cb}^{*}}.
-$$
-From this, we find 
-$$
-	\mathrm{Arg}(\gamma) \sim \gamma,
-$$
-with $\gamma$ the **angle at the origin** of the unitarity triangle.

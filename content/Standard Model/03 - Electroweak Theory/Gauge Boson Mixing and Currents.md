@@ -81,4 +81,4 @@ Researchers at CERN used the *Gargamelle* bubble chamber to search for this. The
 To prove the neutral current existed, they had to detect isolated electrons being knocked forward without any muons being produced. They successfully found these tracks, proving Glashow's $Z$ boson mixing years before the $Z$ boson itself was directly synthesized.
 
 # Symmetry breaking
-What we did so far *did not require bosons to be massive*. All this, however, seems arbitrary if we do not take into account how [[Electroweak Mass Generation|the mass of the vector bosons]] gets implemented via the [[Higgs Mechanism|Higgs mechanism]]. After spontaneous symmetry breaking, **the photon is the only vector who remains massless**.
+What we did so far *did not require bosons to be massive*. All this, however, seems arbitrary if we do not take into account how [[Electroweak Mass Generation|the mass of the vector bosons]] gets implemented via the [[Higgs Mechanism|Higgs mechanism]]. After spontaneous symmetry breaking, the photon is the only vector who remains massless.
