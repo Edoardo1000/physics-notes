@@ -36,7 +36,7 @@ From this, we deduce that **the coupling between a fermion and the Higgs boson i
 For the $W$ and $Z$ bosons, the interactions arise from expanding the kinetic term $\lvert D_\mu H \rvert^2$ in the unitary gauge:
 $$
 \begin{align}
-\lvert DH \rvert ^{2}  & = \frac{1}{2} (\partial h)^{2} + \left( \frac{g}{\sqrt{ 2 } }W_{\mu}^{+} \left(   \frac{v+h}{\sqrt{ 2 }}, \ 0\right) + \frac{1}{2} (g' B_{\mu} + g W_{\mu}^{3})\left( 0, \ \frac{v+h}{\sqrt{ 2 }} \right)\right)^{2} \\
+\lvert DH \rvert ^{2}  & = \frac{1}{2} (\partial h)^{2} + \left| \frac{g}{\sqrt{ 2 } }W_{\mu}^{+} \left(   \frac{v+h}{\sqrt{ 2 }}, \ 0\right) + \frac{1}{2} (g W_{\mu}^{3} - g' B_{\mu})\left( 0, \ \frac{v+h}{\sqrt{ 2 }} \right)\right|^{2} \\
  & = \frac{1}{2} (\partial h)^{2} + \frac{g^{2}}{4}W_{\mu}^{+}W_{\mu}^{-}(v+h)^{2} + \frac{g^{2}+g'^{2}}{8}Z_{\mu}Z_{\mu}(v+h)^{2}
 \end{align}
 $$

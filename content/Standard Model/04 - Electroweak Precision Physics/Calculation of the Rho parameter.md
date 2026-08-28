@@ -8,9 +8,9 @@ $$
 $$
 are considered fixed.
 
-For the calculation of $\Delta \rho_{f}$, it is sufficient to look at the axial part of the effective vertex. Given $g_{A}^{eff} = g_{A}\left( 1 + \frac{1}{2} \Delta \rho \right)$, this has the form
+For the calculation of $\Delta \rho_{f}$, it is sufficient to look at the axial part of the [[Effective EW parameters|effective vertex]]. Given $g_{A}^{eff} = g_{A}\left( 1 + \frac{1}{2} \Delta \rho_{f} \right)$, this has the form
 $$
-	\mathcal{V}_{A} = g_{Z} g_{A} \left( 1 + \frac{1}{2} \Delta \rho  \right).
+	\mathcal{V}_{A} = g_{Z} g_{A} \left( 1 + \frac{1}{2} \Delta \rho_{f}  \right).
 $$
 ## One-loop amplitude
 To find with the 1-loop amplitude, we are going to use renormalized perturbation theory. We start from the bare Lagrangian 
@@ -35,7 +35,7 @@ $$
 $$
 Comparing with the effective vertex, we find 
 $$
-	\Delta \rho = 2 \frac{\delta g_{Z}}{g_{Z}} + \delta Z_{Z} + 2 \frac{\Delta g_{A}}{g_{A}},\quad \Delta g_{A} \equiv A_{\mathrm{loop}} + g_{A}\delta Z_{f}.
+	\Delta \rho_{f} = 2 \frac{\delta g_{Z}}{g_{Z}} + \delta Z_{Z} + 2 \frac{\Delta g_{A}}{g_{A}},\quad \Delta g_{A} \equiv A_{\mathrm{loop}} + g_{A}\delta Z_{f}.
 $$
 For a charged lepton, $g_{A} = -\frac{1}{2}$, thus we have
 $$
@@ -57,7 +57,7 @@ $$
 $$
 Now, the other renormalization conditions also impose
 - $\delta m_{Z}^{2} + \Pi_{Z Z}(m_{Z}^{2}) = 0$;
-- $\delta Z_{Z} = \Pi'(m_{Z}^{2})$.
+- $\delta Z_{Z} = \Pi_{Z Z}'(m_{Z}^{2})$.
 Putting all together, we find 
 $$
 	\Delta \rho_{f} = - \frac{\delta G_{F}^{V+B}}{G_{F}} + \frac{\Pi_{WW}(0)}{m_{W}^{2}} - \frac{\Pi_{Z Z}(m_{Z}^{2})}{m_{W}^{2}} + \Pi_{Z Z}'(m_{Z}^{2}) - 4 \Delta g_{A}.
@@ -75,6 +75,8 @@ $$
 	\Delta \rho_{f} \approx \frac{1}{m_{W}^{2}}(\Pi_{33}(0)-\Pi_{WW}(0))
 $$
 # Goldstone modes trick
+
+![[../assets/goldstone_equivalence.svg|540]]
 
 To find $\Pi_{AA}(0)$, consider the low-energy effective Lagrangian obtained from expanding the Higgs sector and using 
 $$
@@ -113,6 +115,8 @@ $$
 $$
 Note that $Z_{0}=Z_{+}$, since the two couplings come from the same interaction in the Standard Model, so they cancel in the final expression.
 # Goldstone-fermion loops
+
+![[../assets/pizero_t_loop.svg|267]]
 
 The Yukawa interaction from the Standard Model is written as 
 $$

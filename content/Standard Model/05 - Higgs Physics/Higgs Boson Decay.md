@@ -1,6 +1,9 @@
 Due to the [[Higgs Boson Interactions|interactions of the Higgs boson]], several [[Decay and Optical Theorem|decay]] channels are possible. Here we list some with their widths
 # Summary of branching ratios
-**A figure for the branching ratios has to be inserted.**
+
+The various branching ratios of the Higgs boson are summarized in the following picture.
+
+![[Standard Model/assets/higgs_branching_ratios.svg|593]]
 
 **Observation:** Contrary to what one could expect, $h$ can decay in $W,Z$ even at $m_{h}<2m_{W}$. In this case, one of the particles can be virtual, so instead of a hard cutoff we have a suppression due to the $\frac{1}{m_{W}^{2}}$ in the propagator.
 **Observation:** At large $m_{h}$, the decay is dominated by $W$ and $Z$ bosons. Precisely, their longitudinal modes. Moreover, they are in the ratio $2:1$. This can be understood using the equivalence at high energy between the Goldstone modes and the longitudinal vectors: two of them are eaten by the $W^{\pm}$, while just one by the $Z$. 

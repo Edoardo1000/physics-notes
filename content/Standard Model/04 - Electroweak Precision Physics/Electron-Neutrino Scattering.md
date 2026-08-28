@@ -98,9 +98,9 @@ $$
 
 # Experimental measurements
 
-*More on the measurement of the couplings can be found in [[Electron-Positron Annihilation]].*
+*More on the measurement of the couplings can be found in [[LEP Precision EW Experiments]].*
 
-All the cross sections we found produce **ellipses** in the $g_{V}-g_{A}$ plane. We then can find the values of $g_{v},g_{A},\sin \theta_{W}$.
+All the cross sections we found produce **ellipses** in the $g_{V}-g_{A}$ plane. We then can find the values of $g_{V},g_{A},\sin \theta_{W}$.
 - We look at the intersections of the cylinders
 - One of them is very small
 - We know $g_{A} = T^{3}$, which cannot be small, so it must be $g_{V}$

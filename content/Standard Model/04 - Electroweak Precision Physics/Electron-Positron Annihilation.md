@@ -55,9 +55,9 @@ For energies less than $m_{Z}$, the total cross section is obtained by integrati
 $$
 	\sigma \approx \frac{4 \pi \alpha^{2}}{3s} \left[ 1 - \frac{4 G_{F} s}{\sqrt{ 2 }e^{2}} g_{V}^{2} + 2 \left( \frac{G_{F}s}{e^{2}} \right)^{2} (g_{V}^{2} + g_{A}^{2})^{2} \right].
 $$
-**Observation:** from the [[Standard Model Parameter Values]], we see that $g_{V}$ is very small. Thus, the weak contribution to the total cross section is very *difficult to measure*.
+**Observation:** from the [[Standard Model Parameter Values]], we see that $g_{V}$ is very small. Thus, the weak contribution to the total cross section is very difficult to measure.
 
-**Observation:** In the expression for the total cross section, the contribution from $g_{A}$ is at *second order*. We have to do something else to measure parity violation effects.
+**Observation:** In the expression for the total cross section, the contribution from $g_{A}$ is at second order. We have to do something else to measure parity violation effects.
 # One-loop level cross section
 At one-loop level, the leading contribution to the cross section near the $Z$ pole is given by
 $$
