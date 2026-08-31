@@ -1,5 +1,5 @@
 
-- **[[QFT Foundations]]**
+- **[[Quantum Field Theory]]**
 - **[[Electroweak Theory]]**
 - **[[Electroweak Precision Physics]]**
 - **[[Higgs Physics]]**
