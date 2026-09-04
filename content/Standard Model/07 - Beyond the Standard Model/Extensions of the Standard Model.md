@@ -29,7 +29,8 @@ $$
 $$
 This can be translated in a relation between $\Pi_{33}(0), \Pi_{BB}(0), \Pi_{B{3}}(0)$. 
 
-Now, we also need the condition that the vacuum is uncharged, $Q\ket{0} = 0$. This implies the condition  $$
+Now, we also need the condition that the vacuum is uncharged, $Q\ket{0} = 0$. This implies the condition  
+$$
 	\begin{pmatrix}
 	\Pi_{33}(0) & \Pi_{3B}(0)  \\
 	\Pi_{3B}(0) & \Pi_{BB}(0)
