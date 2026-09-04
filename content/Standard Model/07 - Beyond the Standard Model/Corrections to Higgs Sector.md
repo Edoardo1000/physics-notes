@@ -4,11 +4,11 @@ $$
 $$
 which modifies the coupling of a tree-level interaction by 
 $$
-	g_{HXX}^{SM} \to g^{SM}_{HXX}\left( 1- \frac{c_{H}v^{2}}{\Lambda^{2}} \right).
+	g_{hXX}^{SM} \to g^{SM}_{hXX}\left( 1- \frac{c_{H}v^{2}}{\Lambda^{2}} \right).
 $$
 Because of this, branching ratios stay the same.
 
-From measurements, I can put bounds on operators, for example 
+From [[Extensions of the Standard Model|precision measurements]], I can put bounds on operators, for example 
 $$
 	\Delta S = \frac{g^{2}}{16\pi^{2}}\log\left( \frac{\Lambda^{2}}{m_{h}^{2}} \right) \frac{c_{H}v^{2}}{\Lambda^{2}}
 $$
@@ -29,7 +29,7 @@ $$
 Today, our bounds say $\Lambda \geq \mathrm{few\ Tev}$.
 
 ### Lepton colliders
-Suppose I want to find the corrections to a certain coupling. From the production of bosons, I have to measure $\sigma(pp\to h)\mathrm{BR}(h\to XX)$, which is difficult ton control.
+Suppose I want to find the corrections to a certain coupling. From the production of bosons, I have to measure $\sigma(pp\to h)\mathrm{BR}(h\to XX)$, which is difficult to control.
 
 Using leptons, I can use Higgs strahlung, 
 $$

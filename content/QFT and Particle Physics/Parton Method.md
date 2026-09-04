@@ -55,14 +55,14 @@ $f_{L}(x)$ is called the **splitting function**. Physically, it tells us how pro
 >$$
 >and restoring a $g^2$ factor (depending on the convention), we find our formula.
 ### Transverse case
-In this case, the splitting function has a **physical infrared divergence**: 
+In this case, the splitting function has a physical infrared divergence: 
 $$
 	f_{T}(x) = \frac{g^{2}}{4\pi^{2}} \log\left( \frac{\mu_{F}^{2}}{m_{V}^{2}}\right) \frac{x^{2}+2x(1-x)}{x},
 $$
 where $\mu_{F}$ is a scale which was introduced to cut off the contributions of the amplitude coming from the region of high transverse momentum.
 
 ## The factorization scale
-In the derivation of the longitudinal splitting function, a **factorization scale was introduced**. This is because we made the *collinear approximation*, in which the transverse momentum of the vector boson is considered negligible.
+In the derivation of the longitudinal splitting function, a factorization scale was introduced. This is because we made the *collinear approximation*, in which the transverse momentum of the vector boson is considered negligible.
 However, the full calculation of the cross section involves integrating on a region of high transverse momentum, which breaks down the collinear approximation.
 
 Because of this, we *cut* *off the integral* at a certain scale. In a typical experiment, this scale is some characteristic scale of the system. Refining our analysis, we could also try to study the dependence of $\hat{\sigma}$ on the factorization scale. The dependence should cancel the one of the splitting function, since the physics cannot depend on this scale. Staying at lowest order, we accept a dependence on the cutoff scale, meaning that the calculation is just a *coarse approximation* of the true process

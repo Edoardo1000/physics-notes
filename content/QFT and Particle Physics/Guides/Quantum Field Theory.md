@@ -6,6 +6,8 @@
 * [[Higgs Mechanism]]
 * [[Gamma Matrices]]
 * [[Anomalies]]
+* [[Renormalization Group]]
+* [[Spontaneous Symmetry Breaking]]
 ---
 # Scattering and observables
 

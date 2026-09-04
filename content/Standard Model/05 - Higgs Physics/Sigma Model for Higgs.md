@@ -6,8 +6,10 @@ The generation of [[Electroweak Mass Generation|vector boson masses]] in the Sta
 However, we can describe the mass generation using an effective theory which:
 - makes [[Global Symmetries of the Standard Model|custodial symmetry]] more transparent;
 - makes clear where the masses come from;
-- can be used to study Beyond Standard Model physics.
+- can be used to study Beyond Standard Model physics, such as the [[Composite Higgs]].
 # Spontaneous symmetry breaking
+*For the definition of $\mathcal{H}$, see the [[Global Symmetries of the Standard Model|custodial symmetry]] part.*
+
 In this formulation, the Higgs field acquires a VEV 
 $$
 	\langle \mathcal{H} \rangle = \frac{v}{\sqrt{ 2 }} I,

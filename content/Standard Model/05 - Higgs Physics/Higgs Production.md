@@ -22,9 +22,9 @@ $$
     \sigma \sim \frac{g^{4}}{256 \pi^{3}v^{2}}\left[\log\left( \frac{s }   {m_{h}^{2}} \right) - 1 \right].
 $$
 >[!math]- Derivation: Vector fusion cross section
->In this case we have to use the parton method twice, once for each electron. If $x_1,x_2$ are the fractions of the electron and positron momenta carried by the vectors $V(k_1), V(k_2)$, their invariant mass $\hat{s}$ is given by
+>In this case we have to use the parton method twice, once for each electron. If $x_1,x_2$ are the fractions of the electron and positron momenta carried by the vectors $V(k_1), V(k_2)$, their invariant mass $\hat{s}$ is given in the collinear limit by
 >$$
->\hat{s} = (k_{1}+k_{2})^{2} = x_{1} x_{2} s.
+>\hat{s} = (k_{1}+k_{2})^{2} \simeq x_{1} x_{2} s.
 >$$
 >Applying the parton method we have (suppose identical splitting functions for simplicity)
 >$$

@@ -32,7 +32,7 @@ Consider a $Z$ exchange process, such as ${\nu}_{\mu} + e \to\nu_{\mu}+e$.
 $$
 	\frac{g^{2}}{\cos ^{2}\theta_{W}} \cdot \frac{1}{m_{Z}^{2}} = \frac{g^{2}}{m_{W}^{2}}.
 $$
-From this, we deduce that **at tree level the neutral and charged Fermi constants are equal**.
+From this, we deduce that at tree level the neutral and charged Fermi constants are equal.
 
 ## Cross Section $(\nu_{\mu}+e\to \nu_{\mu}+e)$
 - **Note:** the cross section results are in the limit of **massless electrons**.

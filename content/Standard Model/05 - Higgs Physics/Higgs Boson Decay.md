@@ -70,17 +70,20 @@ $$
 From this we observe that **the decay in two vector bosons is much more sensible on the mass of the Higgs boson**.
 
 # One-loop decay channel
-While Higgs boson does not couple directly to gluons and photons, it can still couple to them through **vector and boson loops**.
+
+![[../assets/h_photon_loop_diagram.svg|181]]
+
+While Higgs boson does not couple directly to gluons and photons, it can still couple to them through vector and boson loops.
 The leading contributions to gluon decay comes from a top quark loop, and the decay width can be computed: 
 $$
-	\Gamma(h\to g g) = \frac{\alpha^{2}m_{h}^{3}}{128 \pi^{3} v^{2}}\left\lvert  \sum_{q}A_{1 / 2}(\tau_{q})  \right\rvert,\quad \tau_{i} \equiv \frac{m_{h}^{2}}{4m_{i}^{2}},
+	\Gamma(h\to g g) = \frac{\alpha^{2}m_{t}^{3}}{256 \pi^{3} v^{2}} \left\lvert  f\left( \frac{m_{t}^{2}}{m_{h}^{2}} \right)  \right\rvert^{2},
 $$
-with $A_{1 / 2}$ a so-called spin function whose details do not matter. The important fact is that $A_{1 / 2}(\tau_{t})\to \frac{4}{3}$ for $m_{t}\gg m_{h}$.
-Similarly, we can calculate the decay width for photons. In this case, also charged $W$ bosons contribute, and we have 
+where $f$ is the function coming from the loop calculation.
+
+The key idea is that $h$ generates a left and a right fermion line, which have to be connected to close the loop. Since gluons do not change chirality, an operator $m_{t}\bar{t}_{L} t_{R}$ must appear inside the loop. Because of this, the amplitude must go like 
 $$
-	\Gamma(h\to\gamma\gamma) = \frac{\alpha^{2}m_{h}^{3}}{256 \pi^{3} v^{2}}\left\lvert  A_{1}(\tau_{W})+\sum_{f}N_{c}^{f}Q_{f}^{2}A_{1 / 2}(\tau_{f})  \right\rvert,\quad \tau_{i} \equiv \frac{m_{h}^{2}}{4m_{i}^{2}},
+A \sim \frac{\alpha}{4\pi} Y_{t} m_{t} f\left( \frac{m_{t}^{2}}{m_{h}^{2}} \right).
 $$
-where the function $A_{1}(\tau)$ is defined similarly.
 
 ## Decay at low energy
 The decay into photons in the limit $m_{t}\gg m_{h}$ can be studied using a trick: the **low-energy theorem**.
@@ -107,7 +110,7 @@ $$
 >from which the result follows.
 
 ### EFT for the $h$-photon interaction
-In general, the decay of the Higgs boson in photons can be described using an **effective Lagrangian**. The term is given by 
+In general, the decay of the Higgs boson in photons can be described using an effective Lagrangian. The term is given by 
 $$
 	\mathcal{L}_{\mathrm{eff}} = \frac{1}{4}\frac{\beta(\alpha)}{\alpha} \frac{h}{v} F_{\mu \nu}F^{\mu \nu}.
 $$
@@ -117,15 +120,15 @@ $$
 $$
 
 >[!math]- Derivation: Effective Lagrangian
->The effective Lagrangian is obtained by expanding the *quantum effective action*, if we write the two-point coefficient of the latter as 
+>The effective Lagrangian is obtained by integrating out the fermions and the exact expression will be nonlocal in general, we can write its quadratic term as 
 >$$
->\Gamma^{(2)}_{\mathrm{eff}} = \frac{1}{2} \int \frac{d^{4}q}{(2\pi)^{4}}A_{\mu}(-q)[q^{2}g^{\mu \nu}-q^{\mu \nu }](1+\hat{\Pi}_{\gamma\gamma}(q^{2}))A_{\nu}(q),
+>\mathcal{L}^{(2)}_{\mathrm{eff}} = \frac{1}{2} \int \frac{d^{4}q}{(2\pi)^{4}}A_{\mu}(-q)[q^{2}g^{\mu \nu}-q^{\mu \nu }](1+\hat{\Pi}_{\gamma\gamma}(q^{2}))A_{\nu}(q),
 >$$
 >the first piece corresponds to the kinetic term:
 >$$
 >-\frac{1}{4} \int d^{4}x F_{\mu \nu}F^{\mu \nu} = \frac{1}{2} \int \frac{d^{4}q}{(2\pi)^{4}} A_{\mu}(-q)[q^{2}g^{\mu \nu}-q^{\mu}q^{\nu}]A_{\nu}(q).
 >$$
->Thus, the constant term in the two-point function of the photon corresponds to a correction to the kinetic term. Now, if the propagator depends on the mass of a fermion $m(h) = m(1 + \frac{h}{v})$, we can expand and get 
+>Thus, $\Pi_{\gamma\gamma}(0)$ corresponds to a correction to the kinetic term. Now, if the propagator depends on the mass of a fermion $m(h) = m(1 + \frac{h}{v})$, we can expand and get 
 >$$
 >\begin{align} \mathcal{L}_{\mathrm{eff}}^{(2)}  & = -\frac{1}{4}[1 + \Pi_{\gamma\gamma}(0,m(h))] F_{\mu \nu}F^{\mu \nu} \\  & \supset -\frac{1}{4} \left[ \frac{m}{v} \frac{\partial}{\partial m} \hat{\Pi}_{\gamma\gamma}(0,m) \right]h F_{\mu \nu}F^{\mu \nu}\end{align},
 >$$

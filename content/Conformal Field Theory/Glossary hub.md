@@ -1,6 +1,5 @@
 
 # Temperature and chemical potentials
-
-From [[Thermal Correlators]]:
-> [!info]- Notation Conventions
-> ![[Thermal Correlators#^q-def]]
+ $$
+  	q = e^{ -\beta },\quad y = e^{ i\mu } = e^{ i\beta \Omega }.
+  $$

@@ -1,12 +1,7 @@
+*Conventions in [[Glossary hub]].*
 
 People are usually interested in CFTs on $S^{1} \times S^{2}$, which is equivalent on a theory on $\mathbb{R}^{3}$ at finite temperature.
 
-## Notation and convention
-- We will use the convention 
-  $$
-  	q = e^{ -\beta },\quad y = e^{ i\mu } = e^{ i\beta \Omega },\quad s=\sin ^{2}\theta,\quad u= y + \frac{1}{y} - 2
-  $$
- ^q-def
 # Partition function
 
 The simplest one is the **partition function**: 
