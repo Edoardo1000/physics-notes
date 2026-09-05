@@ -1,5 +1,5 @@
  - **[[Extensions of the Standard Model]]**
 - **[[Composite Higgs]]**
 - **[[Grand Unified Theories]]**
-- **[[Techicolor]]**
+- **[[Technicolor]]**
 - **[[Neutrino Masses]]**

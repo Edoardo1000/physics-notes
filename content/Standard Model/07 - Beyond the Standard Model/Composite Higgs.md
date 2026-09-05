@@ -221,7 +221,7 @@ and at scales $q\gg m_*$ the dynamics should not care about the Goldstone orient
 The problem we have is in fact an **IR** one, it is not solved by formulating a particular UV-complete theory.
 
 # UV-completion
-*Take a look at [[Techicolor]].*
+*Take a look at [[Technicolor]].*
 
 # How to give mass to fermions
 
@@ -237,17 +237,18 @@ $$
 $$
 then $\Delta_{H} \simeq 3$, and the interaction has $\Lambda_{UV}^{2}$.
 
-However, a problem arises: at the scale $m_{*}$, do the matching 
+However, a problem arises: by dimensional analysis, we must have
 $$
-	\mathcal{O}_{H} \sim g_{*} m_{*}^{\Delta_{H}-1} H,
+	\mathcal{O}_{H} \sim (g_{*} m_{*})^{\Delta_{H}-1} H,
 $$
+where $g_{*}$ is the coupling in the strong sector, and $m_{*}$ is the mass scale of strong resonances.
 from which we get an effective Yukawa interaction 
 $$
-	y_{q} \sim c g_{*} \left( \frac{m_{*}}{\Lambda_{UV}} \right)^{\Delta_{H}-1}.
+	y_{q} \sim c  \left( \frac{m_{*}g_{*}}{\Lambda_{UV}} \right)^{\Delta_{H}-1}.
 $$
 The problem is that we have $\Lambda_{UV} \gg m_{*}$ from experiments. If $\Delta_{H} = 3$, this cannot predict the top Yukawa coupling.
 
-The first attempt would be to have $\Delta_{H} \simeq 1$, and this can happen in strongly couple theories. However, if this were true, then the singlet $\mathcal{O}_{H}^{\dagger} \mathcal{O}_{H}$ would have approximately dimension 2, which means the coefficient is very sensitive to UV physics.
+The first attempt would be to have $\Delta_{H} \simeq 1$, and this can happen in strongly coupled theories. However, if this were true, then the singlet $\mathcal{O}_{H}^{\dagger} \mathcal{O}_{H}$ would have approximately dimension 2. This implies that the operator is relevant, and thus its coefficient strongly depends on UV dynamics.
 
 So we have the competition **large Yukawa vs natural Higgs mass**.
 ### Alternative: partial compositeness
@@ -260,9 +261,9 @@ with $\mathcal{O}_{R,L}$ fermionic operators with the appropriate quantum number
 
 At the resonance level, the Lagrangian is 
 $$
-	\mathcal{L} \supset \Delta \bar{q}_{\mathrm{el}} \chi + m_{*} \bar{\chi} \chi,
+	\mathcal{L} \supset \Delta \bar{q} \chi + m_{*} \bar{\chi} \chi,
 $$
-where $\chi$ is a composite fermion. Because of this, the mass matrix is schematically 
+where $\chi$ is a composite strong fermion. Because of this, the mass matrix is schematically 
 $$
 	\begin{pmatrix}
 	0 & \Delta \\ \Delta & m_{*},
@@ -270,11 +271,11 @@ $$
 $$
 and after diagonalization the light state is 
 $$
-	q_{SM} = \cos\theta q_{\mathrm{el}} + \sin\theta \chi_{\mathrm{comp}},
+	q_{SM} = \cos\theta q + \sin\theta \chi_,
 $$
 with $\tan\theta \sim \frac{\Delta}{m_{*}}$  and there is also a heavy state 
 $$
-	Q_{\mathrm{heavy}} = -\sin\theta q_{\mathrm{el}} + \cos\theta \chi_{\mathrm{comp}}.
+	Q_{\mathrm{heavy}} = -\sin\theta q + \cos\theta \chi_.
 $$
 Now, inside the strong sector, composite fermions couple to  to the Higgs, 
 $$
