@@ -7,7 +7,7 @@ The key idea is to look at the observable $\vec{s} \cdot \vec{p} \ \delta^{3}(\v
 
 # Effective Hamiltonian
 
-The parity violating part weak interaction Hamiltonian between the nucleus and the electron is given by 
+The parity violating weak interaction Hamiltonian between the nucleus and the electron is given by 
 $$
 	H_{\mathrm{eff}} = - \frac{G_{F}}{\sqrt{ 2 }} \sum_{q}C_{1q} \ (\bar{e} \gamma_{\mu} \gamma_{5} e) \ (\bar{q}\gamma^{\mu}q) + C_{2q} \ (\bar{e} \gamma_{\mu} e) \ (\bar{q} \gamma_{\mu} \gamma_{5} q),
 $$

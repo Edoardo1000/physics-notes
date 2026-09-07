@@ -62,7 +62,7 @@ For three generations this is equivalent to
 $$
 	J \neq 0.
 $$
-In the standard parametrization, this translates to 
+In the standard parametrization, the Jarlskog invariant translates to 
 $$
 	J = c_{12} c_{23}c_{13}^{2}s_{12}s_{23}s_{13} \sin\delta.
 $$
@@ -73,7 +73,7 @@ The observables we built were not invariant under $U(3)$ transformations. This i
 
 Since, under a flavor transformations, the Yukawa matrices transform as (we use the spurion technique)
 $$
-	Y_{u} \to U^{\dagger}_{L}Y_{u}V_{u_{R}},\quad Y_{d}\to U_{L}^{\dagger} Y_{d} V_{d_{R}},
+	Y_{u} \to U_{L}Y_{u}V^{\dagger}_{u_{R}},\quad Y_{d}\to U_{L} Y_{d} V_{d_{R}}^{\dagger},
 $$
 from which we can build the matrices 
 $$
